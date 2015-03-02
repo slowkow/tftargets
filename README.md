@@ -6,7 +6,7 @@ This package contains two datasets provided by TRED and ITFP:
 https://cb.utdallas.edu/cgi-bin/TRED/)
 
 * `ITFP`: Predicted human transcription factor targets. (Source:
-itfp.biosino.org/itfp/)
+http://itfp.biosino.org/itfp/)
 
 Install it from github with:
   
