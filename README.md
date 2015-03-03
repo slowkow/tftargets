@@ -9,7 +9,8 @@ This package contains two datasets provided by TRED and ITFP:
   http://itfp.biosino.org/itfp/)
 
 * `ENCODE`: Putative human transcription factor targets based on ChIP-seq data
-  from ENCODE. (Source: http://itfp.biosino.org/itfp/)
+  from ENCODE. (Source:
+  http://hgdownload.cse.ucsc.edu/goldenpath/hg19/encodeDCC/wgEncodeRegTfbsClustered/)
 
 Download and load the RData file:
 
