@@ -7,6 +7,8 @@
 
 BASE='http://itfp.biosino.org/itfp/'
 
+mkdir -p tables-html
+
 cat tables.txt | while read line; do
     out="tables-html/$(basename $line)"
     log="tables-html/$(basename $line .html).log"
