@@ -1,6 +1,6 @@
 # tftargets
 
-This package contains two datasets provided by TRED and ITFP:
+This package contains the following datasets:
 
 * `TRED`: Predicted and known human transcription factor targets. (Source:
   https://cb.utdallas.edu/cgi-bin/TRED/)
