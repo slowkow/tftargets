@@ -54,7 +54,6 @@ sapply(names(TRED)[names(TRED) %in% names(ITFP)], function(tf) {
 
 # ENCODE ----------------------------------------------------------------------
 library(GenomicRanges)
-library(rtracklayer)
 genes <- read.delim("data-raw/UCSC/knownGene.txt.gz", header = FALSE)
 entrez_ids <- read.delim("data-raw/UCSC/knownToLocusLink.txt.gz", header = FALSE)
 genes <- merge(genes, entrez_ids, by = "V1")
