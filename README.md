@@ -3,7 +3,7 @@
 This package contains the following datasets:
 
 * `TRED`: Predicted and known human transcription factor targets. (Source:
-  https://cb.utdallas.edu/cgi-bin/TRED/)
+  https://cb.utdallas.edu/cgi-bin/TRED/tred.cgi?process=home)
 
 * `ITFP`: Predicted human transcription factor targets. (Source:
   http://itfp.biosino.org/itfp/)
