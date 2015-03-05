@@ -1,3 +1,36 @@
+# ITFP: an integrated platform of mammalian transcription factors
+
+Guangyong Zheng,
+Kang Tu,
+Qing Yang,
+Yun Xiong,
+Chaochun Wei,
+Lu Xie,
+Yangyong Zhu,
+and Yixue
+
+<http://dx.doi.org/10.1093/bioinformatics/btn439>
+
+## Summary
+
+Investigation of transcription factors (TFs) and their downstream regulated
+genes (targets) is a significant issue in post-genome era, which can provide
+a brand new vision for some vital biological process. However, information of
+TFs and their targets in mammalian is far from sufficient. Here, we developed
+an integrated TF platform (ITFP), which included abundant TFs and their
+targets of mammalian. In current release, ITFP includes 4105 putative TFs and
+69 496 potential TF-target pairs for human, 3134 putative TFs and 37 040
+potential TF-target pairs for mouse, and 1114 putative TFs and 18 055
+potential TF-target pairs for rat. In short, ITFP will serve as an important
+resource for the research community of transcription and provide strong
+support for regulatory network study.
+
+- - -
+
+# ITFP Website
+
+<http://itfp.biosino.org/itfp>
+
 # Introduction
 
 Investigation of transcription factors (TFs) and their downstream regulated

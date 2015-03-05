@@ -1,11 +1,13 @@
 # Circuitry and Dynamics of Human Transcription Factor Regulatory Networks
 
-Shane Neph
-Andrew B. Stergachis
-Alex Reynolds
-Richard Sandstrom
-Elhanan Borenstein
-John A. Stamatoyannopoulos
+Shane Neph,
+Andrew B. Stergachis,
+Alex Reynolds,
+Richard Sandstrom,
+Elhanan Borenstein,
+John A. Stamatoyannopoulos,
+
+<http://dx.doi.org/10.1016/j.cell.2012.04.040>
 
 ## Highlights
 

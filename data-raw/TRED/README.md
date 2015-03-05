@@ -1,6 +1,33 @@
-# Transcriptional Regulatory Element Database
+# TRED: a Transcriptional Regulatory Element Database and a platform for in silico gene regulation studies
 
-<https://cb.utdallas.edu/cgi-bin/TRED/>
+Fang Zhao,
+Zhenyu Xuan,
+Lihua Liu,
+Michael Q. Zhang
+
+<http://dx.doi.org/10.1093/nar/gki004>
+
+In order to understand gene regulation, accurate and comprehensive knowledge
+of transcriptional regulatory elements is essential. Here, we report our
+efforts in building a mammalian Transcriptional Regulatory Element Database
+(TRED) with associated data analysis functions. It collects cis- and
+trans-regulatory elements and is dedicated to easy data access and analysis
+for both single-gene-based and genome-scale studies. Distinguishing features
+of TRED include: (i) relatively complete genome-wide promoter annotation for
+human, mouse and rat; (ii) availability of gene transcriptional regulation
+information including transcription factor binding sites and experimental
+evidence; (iii) data accuracy is ensured by hand curation; (iv) efficient user
+interface for easy and flexible data retrieval; and (v) implementation of
+on-the-fly sequence analysis tools. TRED can provide good training datasets
+for further genome-wide cis-regulatory element prediction and annotation,
+assist detailed functional studies and facilitate the decipher of gene
+regulatory networks (http://rulai.cshl.edu/TRED).
+
+- - -
+
+# TRED Website
+
+<https://cb.utdallas.edu/cgi-bin/TRED/tred.cgi?process=home>
 
 # Introduction
 
