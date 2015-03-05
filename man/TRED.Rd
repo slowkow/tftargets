@@ -5,7 +5,7 @@
 \title{Transcription factor targets from TRED.}
 \format{A list of gene vectors keyed by transcription factor names.
 \describe{
-  \item{JUN}{character vector of genes targeted by JUN}
+  \item{JUN}{integer vector of Entrez Gene IDs for genes targeted by JUN}
   ...
 }}
 \source{

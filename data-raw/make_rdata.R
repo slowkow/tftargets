@@ -22,6 +22,7 @@ for (tf in unique(dat$TF_name)) {
 
 # TRED ------------------------------------------------------------------------
 dat <- read.delim("data-raw/TRED/targets.tsv.gz", stringsAsFactors = FALSE)
+gid <- read.delim("data-raw/TRED/gid_entrez.tsv.gz", stringsAsFactors = FALSE)
 #  Factor    Gene             Species Map_Location Best_Promoter Best_Promoter_Quality Best_Binding_Quality   gid
 # 1   ESR2  GRIN2D human, Homo sapiens  19q13.1-ter         21058 3.1: refseq,predicted                known 14701
 # 2   ESR2  XPMC2H human, Homo sapiens       9q34.3         42252              2: known               likely 29252
@@ -33,24 +34,35 @@ dat <- read.delim("data-raw/TRED/targets.tsv.gz", stringsAsFactors = FALSE)
 # Discard non-human.
 # table(dat$Species)
 dat <- dat[dat$Species == "human, Homo sapiens", ]
+dat <- merge(dat, gid, by = "gid")
+
+sum(is.na(dat$entrez)) # 202
+
+dat[is.na(dat$entrez), c("Factor", "Gene", "Map_Location", "gid", "entrez")]
+
+# Manually enter missing Entrez Gene IDs.
+# dat[is.na(dat$entrez), c("Factor", "Gene", "gid", "entrez")]
+dat[dat$Gene == "PCNA p120", ]$entrez <- 5111
+dat[dat$Gene == "DHFR", ]$entrez <- 1719
+dat[dat$Gene == "INSIG1", ]$entrez <- 3638
+dat[dat$Gene == "SSX8", ]$entrez <- 280659
+dat[dat$Gene == "CYP11B2", ]$entrez <- 1585
+dat[dat$Gene == "ERVWE1", ]$entrez <- 30816
+dat[dat$Gene == "ACDC", ]$entrez <- 9370
+dat[dat$Gene == "TRPM2", ]$entrez <- 7226
+dat[dat$Gene == "PIGB", ]$entrez <- 9488
+dat[dat$Gene == "TU12B1-TY", ]$entrez <- 51559
+dat[dat$Gene == "IKBKG", ]$entrez <- 8517
+dat[dat$Gene == "SPRR1A", ]$entrez <- 6698
+
+# Discard records without an Entrez Gene ID.
+dat <- dat[!is.na(dat$entrez), ]
 
 TRED <- list()
 for (tf in unique(dat$Factor)) {
-  targets <- sort(unique(dat[dat$Factor == tf, "Gene"]))
+  targets <- sort(unique(dat[dat$Factor == tf, "entrez"]))
   TRED[[tf]] <- targets
 }
-
-sum(names(TRED) %in% names(ITFP)) / length(TRED) # 0.47
-sum(names(ITFP) %in% names(TRED)) / length(ITFP) # 0.03
-
-# Check concordance of TRED and ITFP.
-sapply(names(TRED)[names(TRED) %in% names(ITFP)], function(tf) {
-  t1 <- TRED[[tf]]
-  t2 <- ITFP[[tf]]
-  total <- sort(unique(c(t1, t2)))
-  both <- sum(total %in% t1 & total %in% t2)
-  both / length(total)
-})
 
 # ENCODE ----------------------------------------------------------------------
 library(GenomicRanges)
