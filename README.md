@@ -28,7 +28,7 @@ load("tftargets.RData")
 List the targets of a transcription factor called `STAT3`:
 
 ```{r}
-# Gene symbols used on the TRED website.
+# Entrez Gene IDs.
 > TRED[["STAT3"]]
  [1]      2    332    355    595    596    598    896    943    958   1026   1051
 [12]   1401   1588   1962   2194   2209   2353   3082   3162   3320   3326   3479
