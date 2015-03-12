@@ -12,6 +12,10 @@ This package contains the following datasets:
   from ENCODE. (Source:
   http://hgdownload.cse.ucsc.edu/goldenpath/hg19/encodeDCC/wgEncodeRegTfbsClustered/)
 
+* `Neph2012`: Transcription factor targets discovered by DNaseI footprinting
+  and TF recognition sequences. Targets include only transcription factors and
+  not other genes. (Source: http://www.regulatorynetworks.org/)
+
 Download and load the RData file:
 
 ```{r}
@@ -49,4 +53,12 @@ List the targets of a transcription factor called `STAT3`:
  [58] 495 529 534 550 571 577 581 586 593 596 597 598 602 622 627 631 636 637 640
  [77] 651 658 667 669 687 694 695 714 740 752 753 770 773 779 780 781 783 788 800
  [96] 805 811 814 817 821
+
+# Entrez Gene IDs.
+> Neph2012[["AG10803-DS12374"]][["STAT3"]]
+ [1]    466   1386    467    468  22809  22926  11016   1385   9586   1390  10664
+[12]   1958   1959   1960   1961   2735   2736   2737 148979   2969   8462   9314
+[23]   4149   4150   4609   4800   4801   4802   2494   5076   5080   5453   5454
+[34]   6667   6668   6670   6671   6774   7020   7021   7022  29842   7490   7494
+[45]  51043   7707  10127
 ```

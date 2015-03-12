@@ -1,0 +1,534 @@
+entrezgene	name	X_score	symbol	X_id	taxid	query
+196	aryl hydrocarbon receptor	396.1516	AHR	196	9606	AHR
+326	autoimmune regulator	411.71964	AIRE	326	9606	AIRE
+8092	ALX homeobox 1	432.4954	ALX1	8092	9606	ALX1
+257	ALX homeobox 3	461.58594	ALX3	257	9606	ALX3
+60529	ALX homeobox 4	460.99234	ALX4	60529	9606	ALX4
+367	androgen receptor	364.7982	AR	367	9606	AR
+1820	AT rich interactive domain 3A (BRIGHT-like)	431.3781	ARID3A	1820	9606	ARID3A
+84159	AT rich interactive domain 5B (MRF1-like)	414.09952	ARID5B	84159	9606	ARID5B
+405	aryl hydrocarbon receptor nuclear translocator	439.09283	ARNT	405	9606	ARNT
+9915	aryl-hydrocarbon receptor nuclear translocator 2	371.81958	ARNT2	9915	9606	ARNT2
+406	aryl hydrocarbon receptor nuclear translocator-like	411.2172	ARNTL	406	9606	ARNTL
+56938	aryl hydrocarbon receptor nuclear translocator-like 2	439.09283	ARNTL2	56938	9606	ARNTL2
+170302	aristaless related homeobox	418.6083	ARX	170302	9606	ARX
+429	achaete-scute family bHLH transcription factor 1	440.18243	ASCL1	429	9606	ASCL1
+466	activating transcription factor 1	398.75134	ATF1	466	9606	ATF1
+1386	activating transcription factor 2	439.36813	ATF2	1386	9606	ATF2
+467	activating transcription factor 3	403.49258	ATF3	467	9606	ATF3
+468	activating transcription factor 4	411.48975	ATF4	468	9606	ATF4
+22809	activating transcription factor 5	403.5059	ATF5	22809	9606	ATF5
+22926	activating transcription factor 6	367.37195	ATF6	22926	9606	ATF6
+11016	activating transcription factor 7	390.6416	ATF7	11016	9606	ATF7
+474	atonal homolog 1 (Drosophila)	419.9441	ATOH1	474	9606	ATOH1
+571	BTB and CNC homology 1, basic leucine zipper transcription factor 1	396.1516	BACH1	571	9606	BACH1
+60468	BTB and CNC homology 1, basic leucine zipper transcription factor 2	460.6752	BACH2	60468	9606	BACH2
+56751	BarH-like homeobox 1	431.69452	BARHL1	56751	9606	BARHL1
+343472	BarH-like homeobox 2	431.92474	BARHL2	343472	9606	BARHL2
+56033	BARX homeobox 1	461.58594	BARX1	56033	9606	BARX1
+8538	BARX homeobox 2	460.99292	BARX2	8538	9606	BARX2
+604	B-cell CLL/lymphoma 6	403.5059	BCL6	604	9606	BCL6
+55814	B double prime 1, subunit of RNA polymerase III transcription initiation factor IIIB	432.284	BDP1	55814	9606	BDP1
+8553	basic helix-loop-helix family, member e40	438.57785	BHLHE40	8553	9606	BHLHE40
+79365	basic helix-loop-helix family, member e41	418.85873	BHLHE41	79365	9606	BHLHE41
+2186	bromodomain PHD finger transcription factor	383.8357	BPTF	2186	9606	BPTF
+672	breast cancer 1, early onset	383.8357	BRCA1	672	9606	BRCA1
+2972	BRF1, RNA polymerase III transcription initiation factor 90 kDa subunit	364.79874	BRF1	2972	9606	BRF1
+865	core-binding factor, beta subunit	432.284	CBFB	865	9606	CBFB
+988	cell division cycle 5-like	380.3579	CDC5L	988	9606	CDC5L
+1044	caudal type homeobox 1	460.71747	CDX1	1044	9606	CDX1
+1045	caudal type homeobox 2	403.76578	CDX2	1045	9606	CDX2
+1050	CCAAT/enhancer binding protein (C/EBP), alpha	365.4586	CEBPA	1050	9606	CEBPA
+1051	CCAAT/enhancer binding protein (C/EBP), beta	383.8357	CEBPB	1051	9606	CEBPB
+1052	CCAAT/enhancer binding protein (C/EBP), delta	467.90457	CEBPD	1052	9606	CEBPD
+1053	CCAAT/enhancer binding protein (C/EBP), epsilon	461.79706	CEBPE	1053	9606	CEBPE
+1054	CCAAT/enhancer binding protein (C/EBP), gamma	412.07852	CEBPG	1054	9606	CEBPG
+10153	CCAAT/enhancer binding protein (C/EBP), zeta	384.628	CEBPZ	10153	9606	CEBPZ
+91612	churchill domain containing 1	418.6083	CHURC1	91612	9606	CHURC1
+25792	CDKN1A interacting zinc finger protein 1	384.42004	CIZ1	25792	9606	CIZ1
+9575	clock circadian regulator	391.16397	CLOCK	9575	9606	CLOCK
+4849	CCR4-NOT transcription complex, subunit 3	412.0774	CNOT3	4849	9606	CNOT3
+1385	cAMP responsive element binding protein 1	357.14352	CREB1	1385	9606	CREB1
+9586	cAMP responsive element binding protein 5	411.49033	CREB5	9586	9606	CREB5
+1390	cAMP responsive element modulator	432.284	CREM	1390	9606	CREM
+1406	cone-rod homeobox	372.07974	CRX	1406	9606	CRX
+10664	CCCTC-binding factor (zinc finger protein)	390.6416	CTCF	10664	9606	CTCF
+1489	cardiotrophin 1	386.42618	CTF1	1489	9606	CTF1
+1523	cut-like homeobox 1	365.37875	CUX1	1523	9606	CUX1
+1628	D site of albumin promoter (albumin D-box) binding protein	461.79706	DBP	1628	9606	DBP
+1649	DNA-damage-inducible transcript 3	419.9441	DDIT3	1649	9606	DDIT3
+10522	DEAF1 transcription factor	357.72134	DEAF1	10522	9606	DEAF1
+1745	distal-less homeobox 1	439.09283	DLX1	1745	9606	DLX1
+1746	distal-less homeobox 2	431.42026	DLX2	1746	9606	DLX2
+1747	distal-less homeobox 3	419.13293	DLX3	1747	9606	DLX3
+1748	distal-less homeobox 4	411.71964	DLX4	1748	9606	DLX4
+1749	distal-less homeobox 5	434.31436	DLX5	1749	9606	DLX5
+127343	diencephalon/mesencephalon homeobox 1	419.13293	DMBX1	127343	9606	DMBX1
+1761	doublesex and mab-3 related transcription factor 1	439.10626	DMRT1	1761	9606	DMRT1
+10655	doublesex and mab-3 related transcription factor 2	404.57388	DMRT2	10655	9606	DMRT2
+58524	doublesex and mab-3 related transcription factor 3	460.99292	DMRT3	58524	9606	DMRT3
+1869	E2F transcription factor 1	434.31436	E2F1	1869	9606	E2F1
+1870	E2F transcription factor 2	431.92474	E2F2	1870	9606	E2F2
+1871	E2F transcription factor 3	384.42004	E2F3	1871	9606	E2F3
+1874	E2F transcription factor 4, p107/p130-binding	403.5059	E2F4	1874	9606	E2F4
+1875	E2F transcription factor 5, p130-binding	411.71964	E2F5	1875	9606	E2F5
+1876	E2F transcription factor 6	414.09952	E2F6	1876	9606	E2F6
+144455	E2F transcription factor 7	402.9817	E2F7	144455	9606	E2F7
+79733	E2F transcription factor 8	381.93942	E2F8	79733	9606	E2F8
+1877	E4F transcription factor 1	391.1508	E4F1	1877	9606	E4F1
+1879	early B-cell factor 1	403.76578	EBF1	1879	9606	EBF1
+64641	early B-cell factor 2	383.56516	EBF2	64641	9606	EBF2
+253738	early B-cell factor 3	396.73697	EBF3	253738	9606	EBF3
+1958	early growth response 1	357.72134	EGR1	1958	9606	EGR1
+1959	early growth response 2	372.06656	EGR2	1959	9606	EGR2
+1960	early growth response 3	461.58594	EGR3	1960	9606	EGR3
+1961	early growth response 4	439.09283	EGR4	1961	9606	EGR4
+26298	ets homologous factor	403.5059	EHF	26298	9606	EHF
+1997	E74-like factor 1 (ets domain transcription factor)	438.84143	ELF1	1997	9606	ELF1
+1998	E74-like factor 2 (ets domain transcription factor)	431.42026	ELF2	1998	9606	ELF2
+1999	E74-like factor 3 (ets domain transcription factor, epithelial-specific )	403.5059	ELF3	1999	9606	ELF3
+2000	E74-like factor 4 (ets domain transcription factor)	372.33713	ELF4	2000	9606	ELF4
+2001	E74-like factor 5 (ets domain transcription factor)	431.92474	ELF5	2001	9606	ELF5
+2002	ELK1, member of ETS oncogene family	412.0774	ELK1	2002	9606	ELK1
+2004	ELK3, ETS-domain protein (SRF accessory protein 2)	395.8801	ELK3	2004	9606	ELK3
+2005	ELK4, ETS-domain protein (SRF accessory protein 1)	380.87863	ELK4	2005	9606	ELK4
+2018	empty spiracles homeobox 2	461.79706	EMX2	2018	9606	EMX2
+2019	engrailed homeobox 1	432.28513	EN1	2019	9606	EN1
+2020	engrailed homeobox 2	431.92474	EN2	2020	9606	EN2
+8320	eomesodermin	390.6416	EOMES	8320	9606	EOMES
+2033	E1A binding protein p300	396.7381	EP300	2033	9606	EP300
+2034	endothelial PAS domain protein 1	438.84143	EPAS1	2034	9606	EPAS1
+2077	Ets2 repressor factor	380.8654	ERF	2077	9606	ERF
+2078	v-ets avian erythroblastosis virus E26 oncogene homolog	357.14404	ERG	2078	9606	ERG
+2099	estrogen receptor 1	383.52356	ESR1	2099	9606	ESR1
+2100	estrogen receptor 2 (ER beta)	373.57495	ESR2	2100	9606	ESR2
+2101	estrogen-related receptor alpha	419.13293	ESRRA	2101	9606	ESRRA
+2103	estrogen-related receptor beta	461.58594	ESRRB	2103	9606	ESRRB
+80712	ESX homeobox 1	431.69452	ESX1	80712	9606	ESX1
+2113	v-ets avian erythroblastosis virus E26 oncogene homolog 1	357.60556	ETS1	2113	9606	ETS1
+2114	v-ets avian erythroblastosis virus E26 oncogene homolog 2	373.80185	ETS2	2114	9606	ETS2
+2118	ets variant 4	439.10626	ETV4	2118	9606	ETV4
+2120	ets variant 6	390.6416	ETV6	2120	9606	ETV6
+51513	ets variant 7	461.79706	ETV7	51513	9606	ETV7
+2128	even-skipped homeobox 1	392.22827	EVX1	2128	9606	EVX1
+2254	fibroblast growth factor 9	396.73697	FGF9	2254	9606	FGF9
+2313	Fli-1 proto-oncogene, ETS transcription factor	390.90216	FLI1	2313	9606	FLI1
+2353	FBJ murine osteosarcoma viral oncogene homolog	381.1368	FOS	2353	9606	FOS
+2354	FBJ murine osteosarcoma viral oncogene homolog B	396.94678	FOSB	2354	9606	FOSB
+8061	FOS-like antigen 1	411.71964	FOSL1	8061	9606	FOSL1
+2355	FOS-like antigen 2	412.0774	FOSL2	2355	9606	FOSL2
+3169	forkhead box A1	403.24313	FOXA1	3169	9606	FOXA1
+3170	forkhead box A2	398.75134	FOXA2	3170	9606	FOXA2
+3171	forkhead box A3	468.42154	FOXA3	3171	9606	FOXA3
+2296	forkhead box C1	412.28796	FOXC1	2296	9606	FOXC1
+2297	forkhead box D1	412.0774	FOXD1	2297	9606	FOXD1
+27022	forkhead box D3	434.31436	FOXD3	27022	9606	FOXD3
+2294	forkhead box F1	396.15216	FOXF1	2294	9606	FOXF1
+2295	forkhead box F2	438.57785	FOXF2	2295	9606	FOXF2
+2290	forkhead box G1	418.87207	FOXG1	2290	9606	FOXG1
+8928	forkhead box H1	396.7381	FOXH1	8928	9606	FOXH1
+2299	forkhead box I1	460.71747	FOXI1	2299	9606	FOXI1
+2302	forkhead box J1	395.8801	FOXJ1	2302	9606	FOXJ1
+55810	forkhead box J2	404.57388	FOXJ2	55810	9606	FOXJ2
+22887	forkhead box J3	384.42004	FOXJ3	22887	9606	FOXJ3
+2300	forkhead box L1	463.62354	FOXL1	2300	9606	FOXL1
+2305	forkhead box M1	374.15692	FOXM1	2305	9606	FOXM1
+8456	forkhead box N1	431.69452	FOXN1	8456	9606	FOXN1
+3344	forkhead box N2	391.16397	FOXN2	3344	9606	FOXN2
+2308	forkhead box O1	402.9817	FOXO1	2308	9606	FOXO1
+2309	forkhead box O3	383.52356	FOXO3	2309	9606	FOXO3
+4303	forkhead box O4	411.48975	FOXO4	4303	9606	FOXO4
+27086	forkhead box P1	396.15216	FOXP1	27086	9606	FOXP1
+50943	forkhead box P3	357.14404	FOXP3	50943	9606	FOXP3
+2551	GA binding protein transcription factor, alpha subunit 60kDa	373.80185	GABPA	2551	9606	GABPA
+2553	GA binding protein transcription factor, beta subunit 1	418.6083	GABPB1	2553	9606	GABPB1
+2623	GATA binding protein 1 (globin transcription factor 1)	403.49258	GATA1	2623	9606	GATA1
+2624	GATA binding protein 2	431.42026	GATA2	2624	9606	GATA2
+2625	GATA binding protein 3	364.66058	GATA3	2625	9606	GATA3
+2626	GATA binding protein 4	396.38065	GATA4	2626	9606	GATA4
+140628	GATA binding protein 5	431.694	GATA5	140628	9606	GATA5
+2627	GATA binding protein 6	412.07852	GATA6	2627	9606	GATA6
+2637	gastrulation brain homeobox 2	438.57785	GBX2	2637	9606	GBX2
+8521	glial cells missing homolog 1 (Drosophila)	411.48975	GCM1	8521	9606	GCM1
+9247	glial cells missing homolog 2 (Drosophila)	373.80185	GCM2	9247	9606	GCM2
+2672	growth factor independent 1 transcription repressor	376.15628	GFI1	2672	9606	GFI1
+8328	growth factor independent 1B transcription repressor	372.06656	GFI1B	8328	9606	GFI1B
+2735	GLI family zinc finger 1	374.1558	GLI1	2735	9606	GLI1
+2736	GLI family zinc finger 2	403.24313	GLI2	2736	9606	GLI2
+2737	GLI family zinc finger 3	383.56516	GLI3	2737	9606	GLI3
+148979	GLIS family zinc finger 1	440.18243	GLIS1	148979	9606	GLIS1
+169792	GLIS family zinc finger 3	390.90216	GLIS3	169792	9606	GLIS3
+170825	GS homeobox 2	434.31436	GSX2	170825	9606	GSX2
+2957	general transcription factor IIA, 1, 19/37kDa	381.93942	GTF2A1	2957	9606	GTF2A1
+2958	general transcription factor IIA, 2, 12kDa	411.48975	GTF2A2	2958	9606	GTF2A2
+2969	general transcription factor IIi	439.09283	GTF2I	2969	9606	GTF2I
+9569	GTF2I repeat domain containing 1	395.83835	GTF2IRD1	9569	9606	GTF2IRD1
+64412	GDNF-inducible zinc finger protein 1	438.84143	GZF1	64412	9606	GZF1
+9421	heart and neural crest derivatives expressed 1	396.7381	HAND1	9421	9606	HAND1
+9464	heart and neural crest derivatives expressed 2	412.07852	HAND2	9464	9606	HAND2
+26959	HMG-box transcription factor 1	412.0774	HBP1	26959	9606	HBP1
+3280	hes family bHLH transcription factor 1	431.42026	HES1	3280	9606	HES1
+3090	hypermethylated in cancer 1	396.15216	HIC1	3090	9606	HIC1
+3091	hypoxia inducible factor 1, alpha subunit (basic helix-loop-helix transcription factor)	390.6416	HIF1A	3091	9606	HIF1A
+25988	histone H4 transcription factor	391.1508	HINFP	25988	9606	HINFP
+3097	human immunodeficiency virus type I enhancer binding protein 2	384.0639	HIVEP2	3097	9606	HIVEP2
+3131	hepatic leukemia factor	432.4954	HLF	3131	9606	HLF
+79618	homeobox containing 1	404.57388	HMBOX1	79618	9606	HMBOX1
+3159	high mobility group AT-hook 1	372.07974	HMGA1	3159	9606	HMGA1
+8091	high mobility group AT-hook 2	418.3459	HMGA2	8091	9606	HMGA2
+3166	H6 family homeobox 1	419.13293	HMX1	3166	9606	HMX1
+340784	H6 family homeobox 3	390.6416	HMX3	340784	9606	HMX3
+6927	HNF1 homeobox A	384.42004	HNF1A	6927	9606	HNF1A
+6928	HNF1 homeobox B	404.57388	HNF1B	6928	9606	HNF1B
+3172	hepatocyte nuclear factor 4, alpha	373.57495	HNF4A	3172	9606	HNF4A
+3174	hepatocyte nuclear factor 4, gamma	412.28796	HNF4G	3174	9606	HNF4G
+57594	homeobox and leucine zipper encoding	418.6083	HOMEZ	57594	9606	HOMEZ
+3198	homeobox A1	431.3781	HOXA1	3198	9606	HOXA1
+3206	homeobox A10	431.3781	HOXA10	3206	9606	HOXA10
+3207	homeobox A11	461.58594	HOXA11	3207	9606	HOXA11
+3209	homeobox A13	396.15216	HOXA13	3209	9606	HOXA13
+3199	homeobox A2	396.7381	HOXA2	3199	9606	HOXA2
+3200	homeobox A3	380.87863	HOXA3	3200	9606	HOXA3
+3201	homeobox A4	431.92474	HOXA4	3201	9606	HOXA4
+3202	homeobox A5	414.09952	HOXA5	3202	9606	HOXA5
+3203	homeobox A6	403.49258	HOXA6	3203	9606	HOXA6
+3204	homeobox A7	396.1516	HOXA7	3204	9606	HOXA7
+3205	homeobox A9	372.33713	HOXA9	3205	9606	HOXA9
+3211	homeobox B1	460.99234	HOXB1	3211	9606	HOXB1
+10481	homeobox B13	439.36813	HOXB13	10481	9606	HOXB13
+3213	homeobox B3	431.3781	HOXB3	3213	9606	HOXB3
+3214	homeobox B4	396.73697	HOXB4	3214	9606	HOXB4
+3215	homeobox B5	438.84143	HOXB5	3215	9606	HOXB5
+3216	homeobox B6	460.99292	HOXB6	3216	9606	HOXB6
+3217	homeobox B7	439.10626	HOXB7	3217	9606	HOXB7
+3218	homeobox B8	412.28796	HOXB8	3218	9606	HOXB8
+3219	homeobox B9	396.73697	HOXB9	3219	9606	HOXB9
+3226	homeobox C10	412.07852	HOXC10	3226	9606	HOXC10
+3227	homeobox C11	439.09283	HOXC11	3227	9606	HOXC11
+3228	homeobox C12	460.71747	HOXC12	3228	9606	HOXC12
+3229	homeobox C13	468.69797	HOXC13	3229	9606	HOXC13
+3221	homeobox C4	434.31436	HOXC4	3221	9606	HOXC4
+3222	homeobox C5	469.5156	HOXC5	3222	9606	HOXC5
+3223	homeobox C6	460.99234	HOXC6	3223	9606	HOXC6
+3224	homeobox C8	380.3579	HOXC8	3224	9606	HOXC8
+3225	homeobox C9	431.3781	HOXC9	3225	9606	HOXC9
+3231	homeobox D1	403.76578	HOXD1	3231	9606	HOXD1
+3238	homeobox D12	463.62354	HOXD12	3238	9606	HOXD12
+3239	homeobox D13	469.5156	HOXD13	3239	9606	HOXD13
+3232	homeobox D3	461.22403	HOXD3	3232	9606	HOXD3
+3235	homeobox D9	460.99292	HOXD9	3235	9606	HOXD9
+3297	heat shock transcription factor 1	396.15216	HSF1	3297	9606	HSF1
+3298	heat shock transcription factor 2	403.76578	HSF2	3298	9606	HSF2
+10320	IKAROS family zinc finger 1 (Ikaros)	432.284	IKZF1	10320	9606	IKZF1
+22807	IKAROS family zinc finger 2 (Helios)	468.42154	IKZF2	22807	9606	IKZF2
+51147	inhibitor of growth family, member 4	381.93942	ING4	51147	9606	ING4
+3659	interferon regulatory factor 1	438.57785	IRF1	3659	9606	IRF1
+3660	interferon regulatory factor 2	395.8801	IRF2	3660	9606	IRF2
+3661	interferon regulatory factor 3	402.9817	IRF3	3661	9606	IRF3
+3662	interferon regulatory factor 4	396.38065	IRF4	3662	9606	IRF4
+3663	interferon regulatory factor 5	434.31436	IRF5	3663	9606	IRF5
+3664	interferon regulatory factor 6	392.22827	IRF6	3664	9606	IRF6
+3665	interferon regulatory factor 7	364.79874	IRF7	3665	9606	IRF7
+3394	interferon regulatory factor 8	381.1368	IRF8	3394	9606	IRF8
+10379	interferon regulatory factor 9	384.0639	IRF9	10379	9606	IRF9
+153572	iroquois homeobox 2	432.4954	IRX2	153572	9606	IRX2
+79191	iroquois homeobox 3	468.43503	IRX3	79191	9606	IRX3
+50805	iroquois homeobox 4	467.90457	IRX4	50805	9606	IRX4
+10265	iroquois homeobox 5	391.42297	IRX5	10265	9606	IRX5
+79190	iroquois homeobox 6	396.1516	IRX6	79190	9606	IRX6
+3670	ISL LIM homeobox 1	376.15628	ISL1	3670	9606	ISL1
+91464	intestine-specific homeobox	432.28513	ISX	91464	9606	ISX
+3689	integrin, beta 2 (complement component 3 receptor 3 and 4 subunit)	383.8357	ITGB2	3689	9606	ITGB2
+3725	jun proto-oncogene	411.17532	JUN	3725	9606	JUN
+3726	jun B proto-oncogene	463.62354	JUNB	3726	9606	JUNB
+3727	jun D proto-oncogene	440.18243	JUND	3727	9606	JUND
+8462	Kruppel-like factor 11	390.90216	KLF11	8462	9606	KLF11
+11278	Kruppel-like factor 12	438.84143	KLF12	11278	9606	KLF12
+28999	Kruppel-like factor 15	419.9441	KLF15	28999	9606	KLF15
+9314	Kruppel-like factor 4 (gut)	419.9441	KLF4	9314	9606	KLF4
+51176	lymphoid enhancer-binding factor 1	431.3781	LEF1	51176	9606	LEF1
+9355	LIM homeobox 2	461.79706	LHX2	9355	9606	LHX2
+8022	LIM homeobox 3	381.1368	LHX3	8022	9606	LHX3
+89884	LIM homeobox 4	395.8801	LHX4	89884	9606	LHX4
+64211	LIM homeobox 5	431.69452	LHX5	64211	9606	LHX5
+26468	LIM homeobox 6	460.99292	LHX6	26468	9606	LHX6
+431707	LIM homeobox 8	412.07852	LHX8	431707	9606	LHX8
+4005	LIM domain only 2 (rhombotin-like 1)	395.8801	LMO2	4005	9606	LMO2
+4009	LIM homeobox transcription factor 1, alpha	392.22827	LMX1A	4009	9606	LMX1A
+4010	LIM homeobox transcription factor 1, beta	384.42004	LMX1B	4010	9606	LMX1B
+4057	lactotransferrin	432.4954	LTF	4057	9606	LTF
+8379	MAD1 mitotic arrest deficient-like 1 (yeast)	411.48975	MAD1L1	8379	9606	MAD1L1
+4094	v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog	419.13293	MAF	4094	9606	MAF
+389692	v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog A	431.3781	MAFA	389692	9606	MAFA
+9935	v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog B	431.42026	MAFB	9935	9606	MAFB
+23764	v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog F	412.28796	MAFF	23764	9606	MAFF
+4097	v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog G	392.22827	MAFG	4097	9606	MAFG
+7975	v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog K	432.284	MAFK	7975	9606	MAFK
+4149	MYC associated factor X	396.15216	MAX	4149	9606	MAX
+4150	MYC-associated zinc finger protein (purine-binding transcription factor)	418.85873	MAZ	4150	9606	MAZ
+2122	MDS1 and EVI1 complex locus	396.73697	MECOM	2122	9606	MECOM
+4204	methyl CpG binding protein 2	431.92474	MECP2	4204	9606	MECP2
+4205	myocyte enhancer factor 2A	414.09952	MEF2A	4205	9606	MEF2A
+4208	myocyte enhancer factor 2C	391.42297	MEF2C	4208	9606	MEF2C
+4209	myocyte enhancer factor 2D	412.28796	MEF2D	4209	9606	MEF2D
+4211	Meis homeobox 1	460.6752	MEIS1	4211	9606	MEIS1
+4212	Meis homeobox 2	432.284	MEIS2	4212	9606	MEIS2
+56917	Meis homeobox 3	432.4954	MEIS3	56917	9606	MEIS3
+4222	mesenchyme homeobox 1	364.66058	MEOX1	4222	9606	MEOX1
+4286	microphthalmia-associated transcription factor	412.07852	MITF	4286	9606	MITF
+3110	motor neuron and pancreas homeobox 1	431.42026	MNX1	3110	9606	MNX1
+4487	msh homeobox 1	432.4954	MSX1	4487	9606	MSX1
+4488	msh homeobox 2	461.5848	MSX2	4488	9606	MSX2
+4520	metal-regulatory transcription factor 1	390.6416	MTF1	4520	9606	MTF1
+83463	MAX dimerization protein 3	395.8801	MXD3	83463	9606	MXD3
+10608	MAX dimerization protein 4	432.4954	MXD4	10608	9606	MXD4
+4601	MAX interactor 1, dimerization protein	383.8357	MXI1	4601	9606	MXI1
+4602	v-myb avian myeloblastosis viral oncogene homolog	402.9817	MYB	4602	9606	MYB
+4605	v-myb avian myeloblastosis viral oncogene homolog-like 2	404.57388	MYBL2	4605	9606	MYBL2
+4609	v-myc avian myelocytomatosis viral oncogene homolog	344.86472	MYC	4609	9606	MYC
+4613	v-myc avian myelocytomatosis viral oncogene neuroblastoma derived homolog	383.56516	MYCN	4613	9606	MYCN
+4617	myogenic factor 5	373.13733	MYF5	4617	9606	MYF5
+4618	myogenic factor 6 (herculin)	383.83627	MYF6	4618	9606	MYF6
+4654	myogenic differentiation 1	357.72134	MYOD1	4654	9606	MYOD1
+4656	myogenin (myogenic factor 4)	396.15216	MYOG	4656	9606	MYOG
+7593	myeloid zinc finger 1	418.87207	MZF1	7593	9606	MZF1
+79923	Nanog homeobox	372.06656	NANOG	79923	9606	NANOG
+4760	neuronal differentiation 1	381.1368	NEUROD1	4760	9606	NEUROD1
+4763	neurofibromin 1	357.5924	NF1	4763	9606	NF1
+4772	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 1	418.87207	NFATC1	4772	9606	NFATC1
+4773	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 2	412.28796	NFATC2	4773	9606	NFATC2
+4775	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 3	419.9441	NFATC3	4775	9606	NFATC3
+4776	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 4	396.15216	NFATC4	4776	9606	NFATC4
+4778	nuclear factor, erythroid 2	374.3641	NFE2	4778	9606	NFE2
+4779	nuclear factor, erythroid 2-like 1	398.75134	NFE2L1	4779	9606	NFE2L1
+4780	nuclear factor, erythroid 2-like 2	384.0639	NFE2L2	4780	9606	NFE2L2
+9603	nuclear factor, erythroid 2-like 3	396.38065	NFE2L3	9603	9606	NFE2L3
+4781	nuclear factor I/B	414.09952	NFIB	4781	9606	NFIB
+4782	nuclear factor I/C (CCAAT-binding transcription factor)	438.84143	NFIC	4782	9606	NFIC
+4783	nuclear factor, interleukin 3 regulated	373.57446	NFIL3	4783	9606	NFIL3
+4784	nuclear factor I/X (CCAAT-binding transcription factor)	439.10626	NFIX	4784	9606	NFIX
+4790	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1	364.5294	NFKB1	4790	9606	NFKB1
+4791	nuclear factor of kappa light polypeptide gene enhancer in B-cells 2 (p49/p100)	403.5059	NFKB2	4791	9606	NFKB2
+4800	nuclear transcription factor Y, alpha	365.02484	NFYA	4800	9606	NFYA
+4801	nuclear transcription factor Y, beta	374.15692	NFYB	4801	9606	NFYB
+4802	nuclear transcription factor Y, gamma	381.93942	NFYC	4802	9606	NFYC
+4807	nescient helix loop helix 1	469.5156	NHLH1	4807	9606	NHLH1
+7080	NK2 homeobox 1	333.63306	NKX2-1	7080	9606	NKX2-1
+4821	NK2 homeobox 2	345.02707	NKX2-2	4821	9606	NKX2-2
+1482	NK2 homeobox 5	295.49463	NKX2-5	1482	9606	NKX2-5
+4824	NK3 homeobox 1	307.1309	NKX3-1	4824	9606	NKX3-1
+579	NK3 homeobox 2	326.17783	NKX3-2	579	9606	NKX3-2
+4825	NK6 homeobox 1	357.5092	NKX6-1	4825	9606	NKX6-1
+84504	NK6 homeobox 2	304.70425	NKX6-2	84504	9606	NKX6-2
+190	nuclear receptor subfamily 0, group B, member 1	439.09283	NR0B1	190	9606	NR0B1
+7376	nuclear receptor subfamily 1, group H, member 2	431.694	NR1H2	7376	9606	NR1H2
+10062	nuclear receptor subfamily 1, group H, member 3	364.5294	NR1H3	10062	9606	NR1H3
+9971	nuclear receptor subfamily 1, group H, member 4	398.75134	NR1H4	9971	9606	NR1H4
+8856	nuclear receptor subfamily 1, group I, member 2	364.66058	NR1I2	8856	9606	NR1I2
+9970	nuclear receptor subfamily 1, group I, member 3	411.71964	NR1I3	9970	9606	NR1I3
+7182	nuclear receptor subfamily 2, group C, member 2	418.3459	NR2C2	7182	9606	NR2C2
+10002	nuclear receptor subfamily 2, group E, member 3	431.92474	NR2E3	10002	9606	NR2E3
+7025	nuclear receptor subfamily 2, group F, member 1	412.28796	NR2F1	7025	9606	NR2F1
+7026	nuclear receptor subfamily 2, group F, member 2	412.0774	NR2F2	7026	9606	NR2F2
+2063	nuclear receptor subfamily 2, group F, member 6	432.4954	NR2F6	2063	9606	NR2F6
+2908	nuclear receptor subfamily 3, group C, member 1 (glucocorticoid receptor)	383.56516	NR3C1	2908	9606	NR3C1
+3164	nuclear receptor subfamily 4, group A, member 1	365.4586	NR4A1	3164	9606	NR4A1
+4929	nuclear receptor subfamily 4, group A, member 2	468.43503	NR4A2	4929	9606	NR4A2
+2516	nuclear receptor subfamily 5, group A, member 1	396.1516	NR5A1	2516	9606	NR5A1
+2494	nuclear receptor subfamily 5, group A, member 2	412.07852	NR5A2	2494	9606	NR5A2
+2649	nuclear receptor subfamily 6, group A, member 1	391.16397	NR6A1	2649	9606	NR6A1
+4899	nuclear respiratory factor 1	434.31436	NRF1	4899	9606	NRF1
+4946	ornithine decarboxylase antizyme 1	439.09283	OAZ1	4946	9606	OAZ1
+3175	one cut homeobox 1	461.58594	ONECUT1	3175	9606	ONECUT1
+9480	one cut homeobox 2	411.2172	ONECUT2	9480	9606	ONECUT2
+23440	orthopedia homeobox	431.69452	OTP	23440	9606	OTP
+5013	orthodenticle homeobox 1	412.0774	OTX1	5013	9606	OTX1
+5015	orthodenticle homeobox 2	460.71747	OTX2	5015	9606	OTX2
+58495	ovo-like zinc finger 2	412.07852	OVOL2	58495	9606	OVOL2
+142	poly (ADP-ribose) polymerase 1	438.57785	PARP1	142	9606	PARP1
+23598	POZ (BTB) and AT hook containing zinc finger 1	412.28796	PATZ1	23598	9606	PATZ1
+5075	paired box 1	412.0774	PAX1	5075	9606	PAX1
+5076	paired box 2	403.24313	PAX2	5076	9606	PAX2
+5077	paired box 3	396.15216	PAX3	5077	9606	PAX3
+5078	paired box 4	418.87207	PAX4	5078	9606	PAX4
+5079	paired box 5	431.3781	PAX5	5079	9606	PAX5
+5080	paired box 6	419.13293	PAX6	5080	9606	PAX6
+5081	paired box 7	461.22403	PAX7	5081	9606	PAX7
+7849	paired box 8	380.8654	PAX8	7849	9606	PAX8
+5087	pre-B-cell leukemia homeobox 1	350.94113	PBX1	5087	9606	PBX1
+5089	pre-B-cell leukemia homeobox 2	411.48975	PBX2	5089	9606	PBX2
+5090	pre-B-cell leukemia homeobox 3	418.85873	PBX3	5090	9606	PBX3
+3651	pancreatic and duodenal homeobox 1	412.07852	PDX1	3651	9606	PDX1
+5241	progesterone receptor	384.419	PGR	5241	9606	PGR
+5307	paired-like homeodomain 1	418.87207	PITX1	5307	9606	PITX1
+5308	paired-like homeodomain 2	373.80185	PITX2	5308	9606	PITX2
+5309	paired-like homeodomain 3	412.0774	PITX3	5309	9606	PITX3
+5316	PBX/knotted 1 homeobox 1	463.62354	PKNOX1	5316	9606	PKNOX1
+63876	PBX/knotted 1 homeobox 2	411.48975	PKNOX2	63876	9606	PKNOX2
+5449	POU class 1 homeobox 1	373.13733	POU1F1	5449	9606	POU1F1
+5450	POU class 2 associating factor 1	432.284	POU2AF1	5450	9606	POU2AF1
+5451	POU class 2 homeobox 1	438.84143	POU2F1	5451	9606	POU2F1
+5452	POU class 2 homeobox 2	460.99292	POU2F2	5452	9606	POU2F2
+25833	POU class 2 homeobox 3	383.8357	POU2F3	25833	9606	POU2F3
+5453	POU class 3 homeobox 1	438.57785	POU3F1	5453	9606	POU3F1
+5454	POU class 3 homeobox 2	431.92474	POU3F2	5454	9606	POU3F2
+5455	POU class 3 homeobox 3	461.5848	POU3F3	5455	9606	POU3F3
+5456	POU class 3 homeobox 4	418.6083	POU3F4	5456	9606	POU3F4
+5457	POU class 4 homeobox 1	383.8357	POU4F1	5457	9606	POU4F1
+5459	POU class 4 homeobox 3	395.83835	POU4F3	5459	9606	POU4F3
+5460	POU class 5 homeobox 1	372.33713	POU5F1	5460	9606	POU5F1
+5462	POU class 5 homeobox 1B	463.62354	POU5F1B	5462	9606	POU5F1B
+5463	POU class 6 homeobox 1	440.18243	POU6F1	5463	9606	POU6F1
+5465	peroxisome proliferator-activated receptor alpha	380.3579	PPARA	5465	9606	PPARA
+5467	peroxisome proliferator-activated receptor delta	432.28513	PPARD	5467	9606	PPARD
+5468	peroxisome proliferator-activated receptor gamma	419.9441	PPARG	5468	9606	PPARG
+639	PR domain containing 1, with ZNF domain	411.49033	PRDM1	639	9606	PRDM1
+5626	PROP paired-like homeobox 1	461.58594	PROP1	5626	9606	PROP1
+5396	paired related homeobox 1	460.6752	PRRX1	5396	9606	PRRX1
+51450	paired related homeobox 2	431.3781	PRRX2	51450	9606	PRRX2
+5813	purine-rich element binding protein A	411.49033	PURA	5813	9606	PURA
+5914	retinoic acid receptor, alpha	383.8357	RARA	5914	9606	RARA
+5915	retinoic acid receptor, beta	390.6416	RARB	5915	9606	RARB
+5916	retinoic acid receptor, gamma	461.79706	RARG	5916	9606	RARG
+30062	retina and anterior neural fold homeobox	432.4954	RAX	30062	9606	RAX
+5925	retinoblastoma 1	380.61765	RB1	5925	9606	RB1
+3516	recombination signal binding protein for immunoglobulin kappa J region	411.17532	RBPJ	3516	9606	RBPJ
+5966	v-rel avian reticuloendotheliosis viral oncogene homolog	384.0639	REL	5966	9606	REL
+5970	v-rel avian reticuloendotheliosis viral oncogene homolog A	403.49258	RELA	5970	9606	RELA
+5971	v-rel avian reticuloendotheliosis viral oncogene homolog B	411.49033	RELB	5971	9606	RELB
+5978	RE1-silencing transcription factor	431.92474	REST	5978	9606	REST
+5989	regulatory factor X, 1 (influences HLA class II expression)	380.3579	RFX1	5989	9606	RFX1
+5990	regulatory factor X, 2 (influences HLA class II expression)	431.42026	RFX2	5990	9606	RFX2
+5991	regulatory factor X, 3 (influences HLA class II expression)	468.69797	RFX3	5991	9606	RFX3
+5992	regulatory factor X, 4 (influences HLA class II expression)	411.71964	RFX4	5992	9606	RFX4
+5993	regulatory factor X, 5 (influences HLA class II expression)	412.07852	RFX5	5993	9606	RFX5
+8625	regulatory factor X-associated ankyrin-containing protein	384.419	RFXANK	8625	9606	RFXANK
+5994	regulatory factor X-associated protein	404.57388	RFXAP	5994	9606	RFXAP
+6095	RAR-related orphan receptor A	418.3459	RORA	6095	9606	RORA
+6096	RAR-related orphan receptor B	432.4954	RORB	6096	9606	RORB
+6239	ras responsive element binding protein 1	396.1516	RREB1	6239	9606	RREB1
+861	runt-related transcription factor 1	403.49258	RUNX1	861	9606	RUNX1
+860	runt-related transcription factor 2	396.7381	RUNX2	860	9606	RUNX2
+864	runt-related transcription factor 3	357.36954	RUNX3	864	9606	RUNX3
+6256	retinoid X receptor, alpha	434.31436	RXRA	6256	9606	RXRA
+6257	retinoid X receptor, beta	468.1692	RXRB	6257	9606	RXRB
+6258	retinoid X receptor, gamma	411.2172	RXRG	6258	9606	RXRG
+6304	SATB homeobox 1	383.8357	SATB1	6304	9606	SATB1
+6474	short stature homeobox 2	411.49033	SHOX2	6474	9606	SHOX2
+51548	sirtuin 6	391.42297	SIRT6	51548	9606	SIRT6
+6495	SIX homeobox 1	411.17532	SIX1	6495	9606	SIX1
+10736	SIX homeobox 2	414.09952	SIX2	10736	9606	SIX2
+6496	SIX homeobox 3	412.07852	SIX3	6496	9606	SIX3
+51804	SIX homeobox 4	432.4954	SIX4	51804	9606	SIX4
+4990	SIX homeobox 6	461.5848	SIX6	4990	9606	SIX6
+4086	SMAD family member 1	411.2172	SMAD1	4086	9606	SMAD1
+4087	SMAD family member 2	391.42297	SMAD2	4087	9606	SMAD2
+4088	SMAD family member 3	365.02484	SMAD3	4088	9606	SMAD3
+4089	SMAD family member 4	376.15628	SMAD4	4089	9606	SMAD4
+4090	SMAD family member 5	431.92474	SMAD5	4090	9606	SMAD5
+4091	SMAD family member 6	461.5848	SMAD6	4091	9606	SMAD6
+4092	SMAD family member 7	418.85873	SMAD7	4092	9606	SMAD7
+4093	SMAD family member 9	431.694	SMAD9	4093	9606	SMAD9
+6663	SRY (sex determining region Y)-box 10	438.84143	SOX10	6663	9606	SOX10
+6664	SRY (sex determining region Y)-box 11	431.694	SOX11	6664	9606	SOX11
+6666	SRY (sex determining region Y)-box 12	431.3781	SOX12	6666	9606	SOX12
+9580	SRY (sex determining region Y)-box 13	418.6083	SOX13	9580	9606	SOX13
+8403	SRY (sex determining region Y)-box 14	431.3781	SOX14	8403	9606	SOX14
+6665	SRY (sex determining region Y)-box 15	419.13293	SOX15	6665	9606	SOX15
+64321	SRY (sex determining region Y)-box 17	395.83835	SOX17	64321	9606	SOX17
+54345	SRY (sex determining region Y)-box 18	439.36813	SOX18	54345	9606	SOX18
+6657	SRY (sex determining region Y)-box 2	373.57446	SOX2	6657	9606	SOX2
+11166	SRY (sex determining region Y)-box 21	411.49033	SOX21	11166	9606	SOX21
+6658	SRY (sex determining region Y)-box 3	402.9817	SOX3	6658	9606	SOX3
+6659	SRY (sex determining region Y)-box 4	431.92474	SOX4	6659	9606	SOX4
+6660	SRY (sex determining region Y)-box 5	418.3459	SOX5	6660	9606	SOX5
+55553	SRY (sex determining region Y)-box 6	383.52356	SOX6	55553	9606	SOX6
+30812	SRY (sex determining region Y)-box 8	438.84143	SOX8	30812	9606	SOX8
+6662	SRY (sex determining region Y)-box 9	414.09952	SOX9	6662	9606	SOX9
+6667	Sp1 transcription factor	384.419	SP1	6667	9606	SP1
+6668	Sp2 transcription factor	438.84143	SP2	6668	9606	SP2
+6670	Sp3 transcription factor	439.09283	SP3	6670	9606	SP3
+6671	Sp4 transcription factor	383.83627	SP4	6671	9606	SP4
+6688	Spi-1 proto-oncogene	431.42026	SPI1	6688	9606	SPI1
+6689	Spi-B transcription factor (Spi-1/PU.1 related)	439.10626	SPIB	6689	9606	SPIB
+84654	spermatogenic leucine zipper 1	434.31436	SPZ1	84654	9606	SPZ1
+6720	sterol regulatory element binding transcription factor 1	384.42004	SREBF1	6720	9606	SREBF1
+6721	sterol regulatory element binding transcription factor 2	391.1508	SREBF2	6721	9606	SREBF2
+6722	serum response factor (c-fos serum response element-binding transcription factor)	364.79874	SRF	6722	9606	SRF
+6736	sex determining region Y	396.38065	SRY	6736	9606	SRY
+6772	signal transducer and activator of transcription 1, 91kDa	364.5294	STAT1	6772	9606	STAT1
+6773	signal transducer and activator of transcription 2, 113kDa	403.76578	STAT2	6773	9606	STAT2
+6774	signal transducer and activator of transcription 3 (acute-phase response factor)	384.0639	STAT3	6774	9606	STAT3
+6775	signal transducer and activator of transcription 4	396.73697	STAT4	6775	9606	STAT4
+6776	signal transducer and activator of transcription 5A	403.49258	STAT5A	6776	9606	STAT5A
+6777	signal transducer and activator of transcription 5B	411.48975	STAT5B	6777	9606	STAT5B
+6778	signal transducer and activator of transcription 6, interleukin-4 induced	390.6416	STAT6	6778	9606	STAT6
+6862	T, brachyury homolog (mouse)	391.42297	T	6862	9606	T
+6886	T-cell acute lymphocytic leukemia 1	380.3579	TAL1	6886	9606	TAL1
+6887	T-cell acute lymphocytic leukemia 2	412.28796	TAL2	6887	9606	TAL2
+6908	TATA box binding protein	414.09952	TBP	6908	9606	TBP
+6913	T-box 15	468.69797	TBX15	6913	9606	TBX15
+9096	T-box 18	412.0774	TBX18	9096	9606	TBX18
+50945	T-box 22	396.38065	TBX22	50945	9606	TBX22
+6910	T-box 5	414.09952	TBX5	6910	9606	TBX5
+6938	transcription factor 12	431.3781	TCF12	6938	9606	TCF12
+6929	transcription factor 3	396.1516	TCF3	6929	9606	TCF3
+6925	transcription factor 4	381.1368	TCF4	6925	9606	TCF4
+6932	transcription factor 7 (T-cell specific, HMG-box)	403.76578	TCF7	6932	9606	TCF7
+7008	thyrotrophic embryonic factor	440.18243	TEF	7008	9606	TEF
+7013	telomeric repeat binding factor (NIMA-interacting) 1	364.488	TERF1	7013	9606	TERF1
+7020	transcription factor AP-2 alpha (activating enhancer binding protein 2 alpha)	396.38065	TFAP2A	7020	9606	TFAP2A
+7021	transcription factor AP-2 beta (activating enhancer binding protein 2 beta)	386.42618	TFAP2B	7021	9606	TFAP2B
+7022	transcription factor AP-2 gamma (activating enhancer binding protein 2 gamma)	390.90216	TFAP2C	7022	9606	TFAP2C
+7023	transcription factor AP-4 (activating enhancer binding protein 4)	460.71747	TFAP4	7023	9606	TFAP4
+7024	transcription factor CP2	403.5059	TFCP2	7024	9606	TFCP2
+29842	transcription factor CP2-like 1	411.48975	TFCP2L1	29842	9606	TFCP2L1
+7027	transcription factor Dp-1	439.09283	TFDP1	7027	9606	TFDP1
+7029	transcription factor Dp-2 (E2F dimerization partner 2)	371.5606	TFDP2	7029	9606	TFDP2
+7030	transcription factor binding to IGHM enhancer 3	411.2172	TFE3	7030	9606	TFE3
+7942	transcription factor EB	403.5059	TFEB	7942	9606	TFEB
+22797	transcription factor EC	461.79706	TFEC	22797	9606	TFEC
+7033	trefoil factor 3 (intestinal)	432.28513	TFF3	7033	9606	TFF3
+7050	TGFB-induced factor homeobox 1	390.6416	TGIF1	7050	9606	TGIF1
+60436	TGFB-induced factor homeobox 2	403.76578	TGIF2	60436	9606	TGIF2
+7067	thyroid hormone receptor, alpha	402.9817	THRA	7067	9606	THRA
+7068	thyroid hormone receptor, beta	431.92474	THRB	7068	9606	THRB
+3196	T-cell leukemia homeobox 2	411.49033	TLX2	3196	9606	TLX2
+10210	topoisomerase I binding, arginine/serine-rich, E3 ubiquitin protein ligase	418.87207	TOPORS	10210	9606	TOPORS
+7157	tumor protein p53	396.94678	TP53	7157	9606	TP53
+8626	tumor protein p63	404.57388	TP63	8626	9606	TP63
+7161	tumor protein p73	418.6083	TP73	7161	9606	TP73
+10155	tripartite motif containing 28	440.18243	TRIM28	10155	9606	TRIM28
+7342	upstream binding protein 1 (LBP-1a)	395.83835	UBP1	7342	9606	UBP1
+7391	upstream transcription factor 1	403.76578	USF1	7391	9606	USF1
+7392	upstream transcription factor 2, c-fos interacting	460.6752	USF2	7392	9606	USF2
+11023	ventral anterior homeobox 1	403.5059	VAX1	11023	9606	VAX1
+25806	ventral anterior homeobox 2	380.8654	VAX2	25806	9606	VAX2
+7421	vitamin D (1,25- dihydroxyvitamin D3) receptor	403.49258	VDR	7421	9606	VDR
+30813	visual system homeobox 1	460.71747	VSX1	30813	9606	VSX1
+338917	visual system homeobox 2	418.3459	VSX2	338917	9606	VSX2
+7490	Wilms tumor 1	381.93942	WT1	7490	9606	WT1
+7494	X-box binding protein 1	367.37195	XBP1	7494	9606	XBP1
+7528	YY1 transcription factor	383.56516	YY1	7528	9606	YY1
+7704	zinc finger and BTB domain containing 16	398.75134	ZBTB16	7704	9606	ZBTB16
+10009	zinc finger and BTB domain containing 33	468.42154	ZBTB33	10009	9606	ZBTB33
+10773	zinc finger and BTB domain containing 6	431.92474	ZBTB6	10773	9606	ZBTB6
+51341	zinc finger and BTB domain containing 7A	418.87207	ZBTB7A	51341	9606	ZBTB7A
+51043	zinc finger and BTB domain containing 7B	438.57785	ZBTB7B	51043	9606	ZBTB7B
+6935	zinc finger E-box binding homeobox 1	357.5924	ZEB1	6935	9606	ZEB1
+132625	ZFP42 zinc finger protein	411.2172	ZFP42	132625	9606	ZFP42
+7543	zinc finger protein, X-linked	419.13293	ZFX	7543	9606	ZFX
+7545	Zic family member 1	384.419	ZIC1	7545	9606	ZIC1
+7546	Zic family member 2	440.18243	ZIC2	7546	9606	ZIC2
+7547	Zic family member 3	383.56516	ZIC3	7547	9606	ZIC3
+7702	zinc finger protein 143	468.69797	ZNF143	7702	9606	ZNF143
+7707	zinc finger protein 148	439.10626	ZNF148	7707	9606	ZNF148
+7764	zinc finger protein 217	391.42297	ZNF217	7764	9606	ZNF217
+51222	zinc finger protein 219	411.17532	ZNF219	51222	9606	ZNF219
+10127	zinc finger protein 263	460.6752	ZNF263	10127	9606	ZNF263
+84449	zinc finger protein 333	432.4954	ZNF333	84449	9606	ZNF333
+59348	zinc finger protein 350	404.57388	ZNF350	59348	9606	ZNF350
+30832	zinc finger protein 354C	460.99292	ZNF354C	30832	9606	ZNF354C
+171017	zinc finger protein 384	411.71964	ZNF384	171017	9606	ZNF384
+51385	zinc finger protein 589	461.22403	ZNF589	51385	9606	ZNF589
+89887	zinc finger protein 628	432.28513	ZNF628	89887	9606	ZNF628

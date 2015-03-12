@@ -34,3 +34,17 @@
 #' }
 #' @source \url{http://hgdownload.cse.ucsc.edu/goldenpath/hg19/encodeDCC/wgEncodeRegTfbsClustered/}
 "ENCODE"
+
+#' Transcription factor targets from Neph et al. 2012.
+#'
+#' Human transcription factor targets obtained from DNaseI footprinting and TF
+#' recognition sequences. Targets only include transcription factors.
+#'
+#' @format A list of lists keyed by cell type names. Each sublist is keyed by
+#' transcription factor names and returns a gene vector.
+#' \describe{
+#'   \item{JUN}{integer vector of Entrez Gene IDs for genes targeted by JUN}
+#'   ...
+#' }
+#' @source \url{http://www.regulatorynetworks.org/}
+"Neph2012"

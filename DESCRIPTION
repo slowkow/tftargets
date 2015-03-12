@@ -1,11 +1,11 @@
 Package: tftargets
 Type: Package
 Title: Human Transcription Factor Targets
-Version: 1.0
-Date: 2015-03-02
+Version: 1.1
+Date: 2015-03-12
 Authors@R: 'Kamil Slowikowski <slowikow@broadinstitute.org> [aut,cre]'
 Description: A data package with lists of genes that are known or predicted to
-    be targeted by transcription factors. I scraped the data from TRED and
-    ITFP. I also downloaded ENCODE ChIP-seq data from UCSC.
+    be targeted by transcription factors. Data sources include: TRED, ITFP,
+    ENCODE ChIP-seq data from UCSC, and Neph et al. 2012 (Cell).
 LazyData: true
 License: CC0

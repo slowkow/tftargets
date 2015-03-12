@@ -121,8 +121,35 @@ for (tf in unique(dat$TF)) {
   ENCODE[[tf]] <- targets
 }
 
+# Neph2012 --------------------------------------------------------------------
+celltypes <- basename(list.dirs("data-raw/Neph2012/human_2013-09-16/"))
+celltypes <- celltypes[2:length(celltypes)]
+
+# Convert gene symbols to Entrez Gene IDs.
+# (I used mygene.info to do the conversion. See "mygene" at Bioconductor.)
+dat <- read.delim(
+  "data-raw/Neph2012/human_2013-09-16/gene2entrez.tsv",
+  stringsAsFactors = FALSE
+)
+gene2entrez <- dat$entrezgene
+names(gene2entrez) <- dat$query
+
+Neph2012 <- list()
+# allgenes <- c()
+for (celltype in celltypes) {
+  dat <- read.delim(file.path(
+    "data-raw/Neph2012/human_2013-09-16", celltype, "genes.regulate.genes"
+  ), header = FALSE, stringsAsFactors = FALSE)  
+  for (g1 in unique(dat$V1)) {
+    targets <- sort(unique(dat[dat$V1 == g1, "V2"]))
+    targets <- targets[targets %in% names(gene2entrez)]
+    Neph2012[[celltype]][[g1]] <- unname(gene2entrez[targets])
+  }
+#   allgenes <- sort(unique(c(allgenes, dat$V1, dat$V2)))
+}
+
 # Save the workspace ----------------------------------------------------------
 save(
-  list = c("ITFP", "TRED", "ENCODE"),
+  list = c("ITFP", "TRED", "ENCODE", "Neph2012"),
   file = "data/tftargets.RData"
 )
