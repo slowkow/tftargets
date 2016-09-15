@@ -36,12 +36,19 @@ load("tftargets.RData")
 
 This package contains the following datasets:
 
-* [TRED](https://github.com/slowkow/tftargets#tred)
-* [ITFP](https://github.com/slowkow/tftargets#itfp)
-* [ENCODE](https://github.com/slowkow/tftargets#encode)
-* [Neph2012](https://github.com/slowkow/tftargets#neph2012)
-* [RegulatoryCircuits](https://github.com/slowkow/tftargets#regulatorycircuits)
-* [TRRUST](https://github.com/slowkow/tftargets#trrust)
+* [TRED][tred] (2007)
+* [ITFP][itfp] (2008)
+* [ENCODE][encode] (2012)
+* [Neph2012][neph2012] (2012)
+* [TRRUST][trrust] (2015)
+* [RegulatoryCircuits][regulatorycircuits] (2016)
+
+[tred]: https://github.com/slowkow/tftargets#tred
+[itfp]: https://github.com/slowkow/tftargets#itfp
+[encode]: https://github.com/slowkow/tftargets#encode
+[neph2012]: https://github.com/slowkow/tftargets#neph2012
+[regulatorycircuits]: https://github.com/slowkow/tftargets#regulatorycircuits
+[trrust]: https://github.com/slowkow/tftargets#trrust
 
 - - -
 
@@ -167,32 +174,6 @@ Neph2012[["AG10803-DS12374"]][["STAT3"]]
 
 - - -
 
-### Regulatory Circuits
-
-#### Citation
-
-> Marbach, D., Lamparter, D., Quon, G., Kellis, M., Kutalik, Z. & Bergmann, S.
-> Tissue-specific regulatory circuits reveal variable modular perturbations
-> across complex diseases. Nat. Methods 13, 366–370 (2016).
-> [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/26950747)
-
-#### Source
-
-<http://regulatorycircuits.org>
-
-#### Description
-
-> We developed a comprehensive resource of close to 400 cell type- and
-> tissue-specific gene regulatory networks for human. Our study shows that
-> disease-associated genetic variants often perturb regulatory modules in cell
-> types or tissues that are highly specific to that disease.
-
-```{r}
-RegulatoryCircuits[["STAT3"]]
-```
-
-- - -
-
 ### TRRUST
 
 #### Citation
@@ -226,5 +207,31 @@ RegulatoryCircuits[["STAT3"]]
 
 ```{r}
 TRRUST[["STAT3"]]
+```
+
+- - -
+
+### Regulatory Circuits
+
+#### Citation
+
+> Marbach, D., Lamparter, D., Quon, G., Kellis, M., Kutalik, Z. & Bergmann, S.
+> Tissue-specific regulatory circuits reveal variable modular perturbations
+> across complex diseases. Nat. Methods 13, 366–370 (2016).
+> [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/26950747)
+
+#### Source
+
+<http://regulatorycircuits.org>
+
+#### Description
+
+> We developed a comprehensive resource of close to 400 cell type- and
+> tissue-specific gene regulatory networks for human. Our study shows that
+> disease-associated genetic variants often perturb regulatory modules in cell
+> types or tissues that are highly specific to that disease.
+
+```{r}
+RegulatoryCircuits[["STAT3"]]
 ```
 
