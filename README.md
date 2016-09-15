@@ -1,9 +1,14 @@
 # tftargets
 
-Transcription factors (TFs) activate and repress target genes. This R package
+[Transcription factors (TFs)][TF] activate and repress target genes. This R package
 provides easy access to query a particular TF and find its targets in humans.
 The data has been collected from multiple different databases.
 
+[TF]: https://www.khanacademy.org/science/biology/gene-regulation/gene-regulation-in-eukaryotes/a/eukaryotic-transcription-factors
+
+<img src="http://images.the-scientist.com/content/images/articles/23812/1.jpg">
+
+Credit: © KENNETH EWARD/BIOGRAFX/PHOTO RESEARCHERS, INC
 
 ## Citation
 
