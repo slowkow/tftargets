@@ -36,17 +36,12 @@ load("tftargets.RData")
 
 This package contains the following datasets:
 
-* [TRED](https://github.com/slowkow/tftargets#TRED)
-
-* [ITFP](https://github.com/slowkow/tftargets#ITFP)
-
-* [ENCODE](https://github.com/slowkow/tftargets#ENCODE)
-
-* [Neph2012](https://github.com/slowkow/tftargets#Neph2012)
-
-* [RegulatoryCircuits](https://github.com/slowkow/tftargets#RegulatoryCircuits)
-
-* [TRRUST](https://github.com/slowkow/tftargets#TRRUST)
+* [TRED](https://github.com/slowkow/tftargets#tred)
+* [ITFP](https://github.com/slowkow/tftargets#itfp)
+* [ENCODE](https://github.com/slowkow/tftargets#encode)
+* [Neph2012](https://github.com/slowkow/tftargets#neph2012)
+* [RegulatoryCircuits](https://github.com/slowkow/tftargets#regulatorycircuits)
+* [TRRUST](https://github.com/slowkow/tftargets#trrust)
 
 - - -
 
