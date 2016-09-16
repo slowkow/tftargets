@@ -211,7 +211,16 @@ Neph2012[["AG10803-DS12374"]][["STAT3"]]
 > for mode of regulation.
 
 ```{r}
-TRRUST[["STAT3"]]
+head(TRRUST[["STAT3"]], 100)
+  [1] "A2M"      "AKAP12"   "AKT1"     "BCL2"     "BCL2"     "BCL2L1"   "BCL2L1"   "BCL6"     "BIRC5"    "BST2"     "CCL11"    "CCL20"   
+ [13] "CCND1"    "CCND1"    "CCND2"    "CCND3"    "CD46"     "CDH1"     "CDK4"     "CDKN1A"   "CDKN1B"   "CFB"      "CFLAR"    "CHI3L1"  
+ [25] "CISH"     "COPS5"    "CRP"      "CSRP1"    "CTGF"     "CXCL8"    "CYP19A1"  "CYR61"    "DDIT3"    "DNMT1"    "EGFR"     "ESR2"    
+ [37] "ETV6"     "F2R"      "FAAH"     "FAS"      "FAS"      "FGF1"     "FGF2"     "FGG"      "FGL1"     "FLT3"     "FOS"      "GAST"    
+ [49] "GFAP"     "HAMP"     "HGF"      "HIF1A"    "HMOX1"    "HP"       "HSPA4"    "HSPB1"    "ICAM1"    "IFNAR1"   "IFNG"     "IKBKE"   
+ [61] "IL10"     "IL11"     "IL1RN"    "IL2"      "IL21"     "IL2RA"    "IL6"      "IL6"      "IRF1"     "JAK2"     "JAK3"     "JUNB"    
+ [73] "KLF11"    "KRT17"    "LCAT"     "LEP"      "LGALS3BP" "LTBP1"    "MCL1"     "MCL1"     "MDC1"     "MICA"     "MMP1"     "MMP14"   
+ [85] "MMP2"     "MMP2"     "MMP3"     "MMP7"     "MMP7"     "MMP9"     "MMP9"     "MUC1"     "MUC4"     "MYC"      "MYC"      "NANOG"   
+ [97] "NDUFA13"  "NME1"     "NOSTRIN"  "NOX5"  
 ```
 
 #### Raw Data
@@ -255,7 +264,16 @@ ABL1  CCND2   Activation  15509806
 > types or tissues that are highly specific to that disease.
 
 ```{r}
-RegulatoryCircuits[["STAT3"]]
+head(regulatory_circuits[["STAT3"]], 100)
+  [1] "SURF1"    "ZNF230"   "EIF5"     "ATG4C"    "LYSMD4"   "ZWILCH"   "TFB1M"    "SLC12A7"  "DNAL1"    "PPP1R8"   "SEPT9"    "SDCCAG8" 
+ [13] "CMTR1"    "GSAP"     "PPIA"     "CLCN6"    "ZFP69"    "ZFP64"    "RNPC3"    "BRPF1"    "ZKSCAN5"  "ZNF410"   "ASF1B"    "PES1"    
+ [25] "TMEM41B"  "F2RL1"    "DARS"     "ZNF24"    "RPL4"     "SYF2"     "AGTPBP1"  "NANOS1"   "ZNF140"   "SEC14L1"  "CHAC1"    "CDC42SE2"
+ [37] "LIPG"     "PROS1"    "MIIP"     "DENND1A"  "ADAMTSL2" "TBC1D22B" "PHACTR4"  "TNFAIP2"  "SLC35C1"  "ZNF284"   "NCCRP1"   "ZFYVE16" 
+ [49] "TBL1XR1"  "UNC45A"   "TIMM50"   "PRRT1"    "RNF215"   "PAF1"     "SPINT1"   "RABL2B"   "DMWD"     "RIN3"     "PAK2"     "NOTCH4"  
+ [61] "INPP5F"   "PSMA8"    "MX2"      "TBC1D7"   "CCDC135"  "ATP2B4"   "HLA-DQA2" "IPO8"     "EID2B"    "OGDH"     "ZFYVE21"  "DDB1"    
+ [73] "SEC31A"   "SURF6"    "EXD2"     "KIF3A"    "RPUSD3"   "SYMPK"    "ASB13"    "CASC5"    "RLF"      "LIN54"    "TNXB"     "TRABD"   
+ [85] "PHTF2"    "COPS4"    "FAM32A"   "PDLIM4"   "CPSF7"    "ZNF720"   "RBFOX2"   "COA4"     "ATP10A"   "MTMR1"    "TNRC6C"   "TMED4"   
+ [97] "BUD31"    "GADD45B"  "MTMR3"    "CDC42EP4"
 ```
 
 #### Raw Data
