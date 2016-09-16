@@ -230,7 +230,7 @@ AHR     EPAS1
 
 #### Figures
 
-<img src="https://github.com/slowkow/tftargets/raw/master/figures/Neph2012_histogram.png">
+<img src="https://github.com/slowkow/tftargets/raw/master/figures/Neph2012_1_histogram.png">
 
 - - -
 
