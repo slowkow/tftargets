@@ -21,6 +21,8 @@ For now, please provide a link to this github repository:
 
 You may install this package with [devtools]:
 
+[devtools]: https://github.com/hadley/devtools
+
 ```{r}
 devtools::install_github("slowkow/tftargets")
 
