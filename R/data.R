@@ -2,9 +2,9 @@
 #'
 #' Predicted and known human transcription factor targets scraped from TRED.
 #'
-#' Jiang, C., Xuan, Z., Zhao, F. & Zhang, M. Q. TRED:
+#' @references Jiang, C., Xuan, Z., Zhao, F. & Zhang, M. Q. TRED:
 #' a transcriptional regulatory element database, new entries and other
-#' development. Nucleic Acids Res. 35, D137–40 (2007).
+#' development. Nucleic Acids Res. 35, D137-40 (2007).
 #' (\href{http://www.ncbi.nlm.nih.gov/pubmed/17202159}{PubMed})
 #'
 #' @docType data
@@ -27,9 +27,9 @@
 #'
 #' Predicted human transcription factor targets scraped from ITFP.
 #'
-#' Zheng, G., Tu, K., Yang, Q., Xiong, Y., Wei, C., Xie, L., Zhu,
+#' @references Zheng, G., Tu, K., Yang, Q., Xiong, Y., Wei, C., Xie, L., Zhu,
 #' Y. & Li, Y. ITFP: an integrated platform of mammalian transcription
-#' factors. Bioinformatics 24, 2416–2417 (2008).
+#' factors. Bioinformatics 24, 2416-2417 (2008).
 #' (\href{http://www.ncbi.nlm.nih.gov/pubmed/18713790}{PubMed})
 #'
 #' @docType data
@@ -56,8 +56,8 @@
 #' The ChIP-seq data used here is taken from sample \code{ENCFF001UUQ}.
 #' There are many other samples that you might want to use instead.
 #'
-#' ENCODE Project Consortium. An integrated encyclopedia of DNA
-#' elements in the human genome. Nature 489, 57–74 (2012).
+#' @references ENCODE Project Consortium. An integrated encyclopedia of DNA
+#' elements in the human genome. Nature 489, 57-74 (2012).
 #' (\href{http://www.ncbi.nlm.nih.gov/pubmed/22955616}{PubMed})
 #'
 #' @docType data
@@ -80,9 +80,9 @@
 #' Human transcription factor targets obtained from DNaseI footprinting and TF
 #' recognition sequences. Targets only include transcription factors.
 #'
-#' Neph, S., Stergachis, A. B., Reynolds, A., Sandstrom, R.,
+#' @references Neph, S., Stergachis, A. B., Reynolds, A., Sandstrom, R.,
 #' Borenstein, E. & Stamatoyannopoulos, J. A. Circuitry and dynamics of human
-#' transcription factor regulatory networks. Cell 150, 1274–1286 (2012).
+#' transcription factor regulatory networks. Cell 150, 1274-1286 (2012).
 #' (\href{http://www.ncbi.nlm.nih.gov/pubmed/22959076}{PubMed})
 #'
 #' @docType data
@@ -104,7 +104,7 @@
 
 #' Transcription factor targets from TRRUST.
 #'
-#' Han, H., Shim, H., Shin, D., Shim, J. E., Ko, Y., Shin, J.,
+#' @references Han, H., Shim, H., Shin, D., Shim, J. E., Ko, Y., Shin, J.,
 #' Kim, H., Cho, A., Kim, E., Lee, T., Kim, H., Kim, K., Yang, S., Bae, D.,
 #' Yun, A., Kim, S., Kim, C. Y., Cho, H. J., Kang, B., Shin, S. & Lee, I.
 #' TRRUST: a reference database of human transcriptional regulatory
@@ -131,9 +131,9 @@
 #' This data is taken from the \code{synoviocyte.txt} file. There are many
 #' other cell types available that you might want to use instead.
 #'
-#' Marbach, D., Lamparter, D., Quon, G., Kellis, M., Kutalik, Z.
+#' @references Marbach, D., Lamparter, D., Quon, G., Kellis, M., Kutalik, Z.
 #' & Bergmann, S. Tissue-specific regulatory circuits reveal variable modular
-#' perturbations across complex diseases. Nat. Methods 13, 366–370 (2016).
+#' perturbations across complex diseases. Nat. Methods 13, 366-370 (2016).
 #' (\href{http://www.ncbi.nlm.nih.gov/pubmed/26950747}{PubMed})
 #'
 #' @docType data

@@ -449,5 +449,6 @@ save(
     "TRRUST",
     "regulatory_circuits"
   ),
+  compress = "bzip2",
   file = "data/tftargets.RData"
 )

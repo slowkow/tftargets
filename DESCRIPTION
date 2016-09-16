@@ -8,5 +8,7 @@ Description: A data package with lists of genes that are known or predicted to
     be targeted by transcription factors. Data sources include: TRED, ITFP,
     ENCODE ChIP-seq data from UCSC, Neph et al. 2012 (Cell), TRRUST, and
     RegulatoryCircuits.
+Depends: R (>= 2.10)
 LazyData: true
-License: Public Domain
+License: CC0
+RoxygenNote: 5.0.1
