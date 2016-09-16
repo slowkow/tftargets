@@ -1,35 +1,14 @@
-# make-rdata.R
-# March 2, 2015
-# Kamil Slowikowski
-
 library(readr)
 library(rjson)
 library(RCurl)
+library(ggplot2)
+library(cowplot)
+library(scales)
 
-# Convert gene names to other IDs.
-geneInfo <- function(query) {
-  fields <- "symbol,name,taxid,entrezgene"
-  url <- sprintf(
-    "mygene.info/v2/query?q=%s&entrezonly=1&species=human&fields=%s",
-    query, fields
-  )
-  res <- fromJSON(getURL(url))
-  hits <- res$hits
-  if (length(hits) > 1) warning(paste("More than 1 hit for", query))
-  if (length(hits) < 1) {
-    warning(paste("No hits for", query))
-    return(NULL)
-  }
-  res <- do.call(rbind, lapply(hits, function(hit) as.data.frame(hit)))
-  res$query <- query
-  if (nrow(res[res$X_score > 1, ]) < 1) {
-    warning(paste("No good hits for", query))
-    return(NULL)
-  }
-  res[res$X_score > 1, ]
-}
+#
 
 # ITFP ------------------------------------------------------------------------
+
 dat <- read.delim(
   "data-raw/ITFP/regulated_genes.tsv.gz", stringsAsFactors = FALSE)
 #   TF_name TF_target     score          target_type
@@ -47,7 +26,10 @@ for (tf in unique(dat$TF_name)) {
   ITFP[[tf]] <- as.character(targets)
 }
 
+#
+
 # TRED ------------------------------------------------------------------------
+
 dat <- read.delim("data-raw/TRED/targets.tsv.gz", stringsAsFactors = FALSE)
 gid <- read.delim("data-raw/TRED/gid_entrez.tsv.gz", stringsAsFactors = FALSE)
 #  Factor    Gene             Species Map_Location Best_Promoter Best_Promoter_Quality Best_Binding_Quality   gid
@@ -83,7 +65,7 @@ dat[dat$Gene == "IKBKG", ]$entrez <- 8517
 dat[dat$Gene == "SPRR1A", ]$entrez <- 6698
 
 # Fix erroneous Entrez Gene IDs.
-dat[dat$Gene == "c-Myc", ]$entrez <- 4609
+# dat[dat$Factor == "c-Myc", ]$entrez <- 4609
 
 # Discard records without an Entrez Gene ID.
 dat <- dat[!is.na(dat$entrez), ]
@@ -94,18 +76,17 @@ for (tf in unique(dat$Factor)) {
   TRED[[tf]] <- as.character(targets)
 }
 
-# Convert TRED TF names to entrez IDs.
-d <- do.call(rbind, lapply(names(TRED), geneInfo))
-d <- d[!duplicated(d$query), ]
+TRED_entrezids <- mapIds(
+  x = org.Hs.eg.db,
+  keys = names(TRED),
+  column = "ENTREZID",
+  keytype = "ALIAS"
+)
 
-name2entrez <- c(as.character(d$entrezgene), "7161", "1869")
-names(name2entrez) <- c(d$query, "TP73L", "E2F-1")
-
-TRED_entrezids <- name2entrez[names(TRED)]
-# TRED_symbols <- names(TRED)
-# names(TRED_symbols) <- TRED_entrezids
+#
 
 # ENCODE ----------------------------------------------------------------------
+
 library(GenomicRanges)
 genes <- read.delim("data-raw/UCSC/knownGene.txt.gz", header = FALSE)
 entrez_ids <- read.delim("data-raw/UCSC/knownToLocusLink.txt.gz", header = FALSE)
@@ -199,22 +180,14 @@ for (tf in unique(dat$TF)) {
   ENCODE[[tf]] <- as.character(targets)
 }
 
-# Convert ENCODE TF names to entrez IDs.
-d <- do.call(rbind, lapply(names(ENCODE), geneInfo))
-d <- d[!duplicated(d$query), ]
-
-name2entrez <- c(
-  as.character(d$entrezgene),
-  "25942", "830649", "10155", "6720", "11128", "55578"
-)
-names(name2entrez) <- c(
-  d$query,
-  "SIN3AK20", "GRp20", "KAP1", "SREBP1", "RPC155", "FAM48A"
+ENCODE_entrezids <- mapIds(
+  x = org.Hs.eg.db,
+  keys = names(ENCODE),
+  column = "ENTREZID",
+  keytype = "ALIAS"
 )
 
-ENCODE_entrezids <- name2entrez[names(ENCODE)]
-# ENCODE_symbols <- names(ENCODE)
-# names(ENCODE_symbols) <- ENCODE_entrezids
+#
 
 # Neph2012 --------------------------------------------------------------------
 celltypes <- basename(list.dirs("data-raw/Neph2012/human_2013-09-16/"))
@@ -243,6 +216,8 @@ for (celltype in celltypes) {
   }
 #   allgenes <- sort(unique(c(allgenes, dat$V1, dat$V2)))
 }
+
+#
 
 # StringDB --------------------------------------------------------------------
 # http://string-db.org/api/psi-mi-tab/interactionsList?identifiers=9606.ENSP00000239849&required_score=900
@@ -296,6 +271,171 @@ stringdb <- lapply(stringdb, function(x) sort(x))
 
 # hist(sapply(stringdb, length))
 
+#
+
+# TRRUST ----------------------------------------------------------------------
+
+tr_file <- "data-raw/TRRUST/trrust_rawdata.txt.gz"
+tr <- read_tsv(tr_file, col_names = c("tf", "target", "type", "pubmed"))
+TRRUST <- split(tr$target, tr$tf)
+TRRUST_TYPE <- split(tr$type, tr$tf)
+TRRUST_PUBMED <- split(tr$pubmed, tr$tf)
+
+d <- data.frame(Length = sapply(TRRUST, length))
+ggplot() +
+  geom_histogram(
+    data = d,
+    mapping = aes(x = Length),
+    binwidth = 0.05
+  ) +
+  geom_rug(
+    data = d,
+    mapping = aes(x = Length),
+    color = "grey30"
+  ) +
+  scale_x_log10() +
+  theme_cowplot(font_size = 20) +
+  labs(
+    x = "Target Genes",
+    y = "Transcription Factors",
+    title = "Number of target genes per transcription factor"
+  )
+ggsave(
+  filename = "figures/TRRUST_histogram.png",
+  width = 12,
+  height = 6,
+  units = "in",
+  dpi = 72
+)
+
+#
+
+# RegulatoryCircuits ----------------------------------------------------------
+#
+# http://regulatorycircuits.org
+#
+# Tissue-specific regulatory circuits reveal variable modular perturbations
+# across complex diseases. (PDF, SI)
+# Marbach D, Lamparter D, Quon G, Kellis M, Kutalik Z, and Bergmann S. 
+# Nature Methods, 13, 366-370, 2016.
+
+regc_file <- "data-raw/regulatorycircuits/FANTOM5_individual_networks/394_individual_networks/synoviocyte.txt.gz"
+regc <- read_tsv(regc_file, col_names = c("tf", "target", "weight"))
+
+regulatory_circuits <- split(regc$target, regc$tf)
+regulatory_circuits_weight <- split(regc$weight, regc$tf)
+
+d <- data.frame(Length = sapply(regulatory_circuits, length))
+ggplot() +
+  geom_histogram(
+    data = d,
+    mapping = aes(x = Length),
+    binwidth = 0.05
+  ) +
+  geom_rug(
+    data = d,
+    mapping = aes(x = Length),
+    color = "grey30"
+  ) +
+  scale_x_log10() +
+  theme_cowplot(font_size = 20) +
+  labs(
+    x = "Target Genes",
+    y = "Transcription Factors",
+    title = "Number of target genes per transcription factor"
+  )
+ggsave(
+  filename = "figures/regulatory_circuits_histogram.png",
+  width = 12,
+  height = 6,
+  units = "in",
+  dpi = 72
+)
+
+# hist(
+#   x = 
+#   breaks = 100,
+#   xlab = "Target Genes",
+#   ylab = "Transcription Factors",
+#   main = paste(collapse = "\n", c(
+#     "Number of target genes per transcription factor",
+#     "regulatorycircuits.org"
+#   ))
+# )
+# rug(sapply(regulatory_circuits, length))
+
+# hist(
+#   x = log10(regc$weight),
+#   breaks = 100,
+#   xlab = bquote("Log"[10]~"Target Gene Weight"),
+#   ylab = "Genes",
+#   main = "Distribution of all target gene weights"
+# )
+
+d <- data.frame(Weight = regc$weight)
+ggplot() +
+  geom_histogram(
+    data = d,
+    mapping = aes(x = Weight),
+    binwidth = 0.05
+  ) +
+  scale_x_log10(labels = comma) +
+  scale_y_continuous(labels = comma) +
+  theme_cowplot(font_size = 20) +
+  labs(
+    x = "Target Gene Weight",
+    y = "Genes",
+    title = "Distribution of all target gene weights"
+  )
+ggsave(
+  filename = "figures/regulatory_circuits_weights_histogram.png",
+  width = 12,
+  height = 6,
+  units = "in",
+  dpi = 72
+)
+
+# hist(log10(unlist(sapply(
+#   X = regulatory_circuits_weight,
+#   FUN = function(x) x / sum(x)
+# ))), breaks = 100)
+
+# plot(
+#   x = log10(sapply(regulatory_circuits, length)),
+#   y = log10(sapply(regulatory_circuits_weight, mean)),
+#   xlab = bquote("Log"[10]~"Number of Target Genes"),
+#   ylab = bquote("Log"[10]~"Mean Target Gene Weight"),
+#   main = "Number of Target Genes vs. Mean Weight of Target Genes"
+# )
+
+d <- data.frame(
+  x = sapply(regulatory_circuits, length),
+  y = sapply(regulatory_circuits_weight, mean)
+)
+ggplot() +
+  geom_point(
+    data = d,
+    mapping = aes(x, y)
+  ) +
+  scale_x_log10(breaks = log_breaks(n = 6, base = 10), labels = comma) +
+  scale_y_log10(breaks = pretty_breaks(n = 6)) +
+  theme_cowplot(font_size = 20) +
+  labs(
+    x = "Number of Target Genes",
+    y = "Mean Target Gene Weight",
+    title = "Number of Target Genes vs. Mean Weight of Target Genes"
+  )
+ggsave(
+  filename = "figures/regulatory_circuits_targets_vs_weight.png",
+  width = 12,
+  height = 6,
+  units = "in",
+  dpi = 72
+)
+
+
+#
+
 # Save the workspace ----------------------------------------------------------
 save(
   list = c(
@@ -303,8 +443,9 @@ save(
     "TRED", "TRED_entrezids",
     "ENCODE", "ENCODE_entrezids",
     "Neph2012",
-    "stringdb"
+    "stringdb",
+    "TRRUST", "TRRUST_TYPE",
+    "regulatory_circuits", "regulatory_circuits_weight"
   ),
   file = "data/tftargets.RData"
-#   file = "~/work/fibroblasts/data/tftargets.RData"
 )

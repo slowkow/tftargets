@@ -6,7 +6,7 @@ The data has been collected from multiple different databases.
 
 [TF]: https://www.khanacademy.org/science/biology/gene-regulation/gene-regulation-in-eukaryotes/a/eukaryotic-transcription-factors
 
-<img src="http://images.the-scientist.com/content/images/articles/23812/1.jpg">
+<img src="https://github.com/slowkow/tftargets/raw/master/figures/transcription_factor_image.jpg">
 
 Credit: © KENNETH EWARD/BIOGRAFX/PHOTO RESEARCHERS, INC
 
@@ -238,5 +238,27 @@ TRRUST[["STAT3"]]
 
 ```{r}
 RegulatoryCircuits[["STAT3"]]
+```
+
+#### Raw Data
+
+Columns:
+
+1. Transcription factor.
+2. Target gene.
+3. Edge weight.
+
+```bash
+zcat data-raw/regulatorycircuits/FANTOM5_individual_networks/394_individual_networks/synoviocyte.txt.gz | head
+RAX    PPP2R2A  1.79016453E-3
+MYCN   RHOA     1.81311653E-2
+TFAP2  RRM1     7.13096624E-3
+PRDM4  KPNA2    1.61069158E-2
+FOXB1  SCARF2   1.78696733E-3
+ATF4   NDUFA11  1.53625527E-3
+SPIC   C9orf69  8.60099271E-4
+FLI1   CENPU    6.72504942E-3
+HNF4A  LHFPL2   1.47391413E-2
+STAT3  SURF1    3.14614561E-3
 ```
 
