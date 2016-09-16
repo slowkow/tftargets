@@ -314,7 +314,7 @@ ggsave(
 
 #
 
-# RegulatoryCircuits ----------------------------------------------------------
+# Marbach2016 -----------------------------------------------------------------
 #
 # http://regulatorycircuits.org
 #
@@ -323,7 +323,7 @@ ggsave(
 # Marbach D, Lamparter D, Quon G, Kellis M, Kutalik Z, and Bergmann S. 
 # Nature Methods, 13, 366-370, 2016.
 
-regc_file <- "data-raw/regulatorycircuits/FANTOM5_individual_networks/394_individual_networks/synoviocyte.txt.bz2"
+regc_file <- "data-raw/Marbach2016/FANTOM5_individual_networks/394_individual_networks/synoviocyte.txt.bz2"
 regc <- read_tsv(regc_file, col_names = c("tf", "target", "weight"))
 
 Marbach2016 <- split(regc$target, regc$tf)
