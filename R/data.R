@@ -48,3 +48,23 @@
 #' }
 #' @source \url{http://www.regulatorynetworks.org/}
 "Neph2012"
+
+#' Transcription factor targets from Neph et al. 2012.
+#'
+#' @format A list of gene vectors keyed by transcription factor names.
+#' \describe{
+#'   \item{JUN}{integer vector of Entrez Gene IDs for genes targeted by JUN}
+#'   ...
+#' }
+#' @source \url{http://www.grnpedia.org/trrust/}
+"TRRUST"
+
+#' Transcription factor targets from Marbach et al. 2016.
+#'
+#' @format A list of gene vectors keyed by transcription factor names.
+#' \describe{
+#'   \item{JUN}{character vector of genes targeted by JUN}
+#'   ...
+#' }
+#' @source \url{http://www.regulatorycircuits.org/}
+"regulatory_circuits"
