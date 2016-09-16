@@ -1,7 +1,7 @@
 Package: tftargets
 Type: Package
 Title: Human Transcription Factor Targets
-Version: 1.2
+Version: 1.3
 Date: 2016-09-16
 Authors@R: 'Kamil Slowikowski <slowikow@broadinstitute.org> [aut,cre]'
 Description: A data package with lists of genes that are known or predicted to

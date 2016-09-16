@@ -446,7 +446,6 @@ save(
     "TRED",
     "ENCODE",
     "Neph2012",
-    "stringdb",
     "TRRUST",
     "regulatory_circuits"
   ),
