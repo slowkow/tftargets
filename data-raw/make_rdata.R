@@ -210,7 +210,7 @@ Neph2012 <- list()
 # allgenes <- c()
 for (celltype in celltypes) {
   dat <- read.delim(file.path(
-    "data-raw/Neph2012/human_2013-09-16", celltype, "genes.regulate.genes"
+    "data-raw/Neph2012/human_2013-09-16", celltype, "genes.regulate.genes.bz2"
   ), header = FALSE, stringsAsFactors = FALSE)  
   for (g1 in unique(dat$V1)) {
     targets <- sort(unique(dat[dat$V1 == g1, "V2"]))
@@ -323,7 +323,7 @@ ggsave(
 # Marbach D, Lamparter D, Quon G, Kellis M, Kutalik Z, and Bergmann S. 
 # Nature Methods, 13, 366-370, 2016.
 
-regc_file <- "data-raw/regulatorycircuits/FANTOM5_individual_networks/394_individual_networks/synoviocyte.txt.gz"
+regc_file <- "data-raw/regulatorycircuits/FANTOM5_individual_networks/394_individual_networks/synoviocyte.txt.bz2"
 regc <- read_tsv(regc_file, col_names = c("tf", "target", "weight"))
 
 regulatory_circuits <- split(regc$target, regc$tf)
