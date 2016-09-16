@@ -112,6 +112,10 @@ TRED[["STAT3"]]
 [56]  27151  55893 117153 201254
 ```
 
+#### Figures
+
+<img src="https://github.com/slowkow/tftargets/raw/master/figures/TRED_histogram.png">
+
 - - -
 
 ### ITFP
@@ -136,6 +140,10 @@ Predicted human transcription factor targets.
 ITFP[["STAT3"]]
  [1] "FIGNL1"   "NCOR1"    "SUV420H1"
 ```
+
+#### Figures
+
+<img src="https://github.com/slowkow/tftargets/raw/master/figures/ITFP_histogram.png">
 
 - - -
 
@@ -169,6 +177,10 @@ head(ENCODE[["STAT3"]], 100)
  [96] 805 811 814 817 821
 ```
 
+#### Figures
+
+<img src="https://github.com/slowkow/tftargets/raw/master/figures/ENCODE_histogram.png">
+
 - - -
 
 ### Neph2012
@@ -199,6 +211,26 @@ Neph2012[["AG10803-DS12374"]][["STAT3"]]
 [34]   6667   6668   6670   6671   6774   7020   7021   7022  29842   7490   7494
 [45]  51043   7707  10127
 ```
+
+#### Raw Data
+
+```bash
+zcat data-raw/Neph2012/human_2013-09-16/AG10803-DS12374/genes.regulate.genes.bz2 | head
+AHR     BHLHE41
+AHR     CNOT3
+AHR     CREB1
+AHR     CREB5
+AHR     CTCF
+AHR     EGR1
+AHR     EGR2
+AHR     EGR3
+AHR     EGR4
+AHR     EPAS1
+```
+
+#### Figures
+
+<img src="https://github.com/slowkow/tftargets/raw/master/figures/Neph2012_histogram.png">
 
 - - -
 
@@ -262,6 +294,8 @@ ABL1  BCL6    Repression  15509806
 ABL1  CCND2   Activation  15509806
 ```
 
+#### Figures
+
 <img src="https://github.com/slowkow/tftargets/raw/master/figures/TRRUST_histogram.png">
 
 - - -
@@ -320,6 +354,8 @@ FLI1   CENPU    6.72504942E-3
 HNF4A  LHFPL2   1.47391413E-2
 STAT3  SURF1    3.14614561E-3
 ```
+
+#### Figures
 
 <img src="https://github.com/slowkow/tftargets/raw/master/figures/Marbach2016_histogram.png">
 

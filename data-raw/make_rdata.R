@@ -30,6 +30,34 @@ for (tf in unique(dat$TF_name)) {
   ITFP[[tf]] <- as.character(targets)
 }
 
+d <- data.frame(Length = sapply(ITFP, length))
+ggplot() +
+  geom_histogram(
+    data = d,
+    mapping = aes(x = Length),
+    binwidth = 0.05
+  ) +
+  geom_rug(
+    data = d,
+    mapping = aes(x = Length),
+    color = "grey30"
+  ) +
+  scale_x_log10(labels = comma) +
+  scale_y_continuous(labels = round) +
+  theme_cowplot(font_size = 20) +
+  labs(
+    x = "Target Genes",
+    y = "Transcription Factors",
+    title = "Number of target genes per transcription factor"
+  )
+ggsave(
+  filename = "figures/ITFP_histogram.png",
+  width = 12,
+  height = 6,
+  units = "in",
+  dpi = 72
+)
+
 #
 
 # TRED ------------------------------------------------------------------------
@@ -85,6 +113,34 @@ TRED_entrezids <- mapIds(
   keys = names(TRED),
   column = "ENTREZID",
   keytype = "ALIAS"
+)
+
+d <- data.frame(Length = sapply(TRED, length))
+ggplot() +
+  geom_histogram(
+    data = d,
+    mapping = aes(x = Length),
+    binwidth = 0.05
+  ) +
+  geom_rug(
+    data = d,
+    mapping = aes(x = Length),
+    color = "grey30"
+  ) +
+  scale_x_log10(labels = comma) +
+  scale_y_continuous(labels = round) +
+  theme_cowplot(font_size = 20) +
+  labs(
+    x = "Target Genes",
+    y = "Transcription Factors",
+    title = "Number of target genes per transcription factor"
+  )
+ggsave(
+  filename = "figures/TRED_histogram.png",
+  width = 12,
+  height = 6,
+  units = "in",
+  dpi = 72
 )
 
 #
@@ -191,6 +247,34 @@ ENCODE_entrezids <- mapIds(
   keytype = "ALIAS"
 )
 
+d <- data.frame(Length = sapply(ENCODE, length))
+ggplot() +
+  geom_histogram(
+    data = d,
+    mapping = aes(x = Length),
+    binwidth = 0.05
+  ) +
+  geom_rug(
+    data = d,
+    mapping = aes(x = Length),
+    color = "grey30"
+  ) +
+  scale_x_log10(labels = comma) +
+  scale_y_continuous(labels = round) +
+  theme_cowplot(font_size = 20) +
+  labs(
+    x = "Target Genes",
+    y = "Transcription Factors",
+    title = "Number of target genes per transcription factor\nCell type: fibroblast"
+  )
+ggsave(
+  filename = "figures/ENCODE_histogram.png",
+  width = 12,
+  height = 6,
+  units = "in",
+  dpi = 72
+)
+
 #
 
 # Neph2012 --------------------------------------------------------------------
@@ -220,6 +304,36 @@ for (celltype in celltypes) {
   }
 #   allgenes <- sort(unique(c(allgenes, dat$V1, dat$V2)))
 }
+
+d <- data.frame(Length = sapply(Neph2012[[1]], length))
+ggplot() +
+  geom_histogram(
+    data = d,
+    mapping = aes(x = Length),
+    binwidth = 0.05
+  ) +
+  geom_rug(
+    data = d,
+    mapping = aes(x = Length),
+    color = "grey30"
+  ) +
+  scale_x_log10(labels = comma) +
+  theme_cowplot(font_size = 20) +
+  labs(
+    x = "Target Genes",
+    y = "Transcription Factors",
+    title = sprintf(
+      "Number of target genes per transcription factor\nCell type: %s",
+      names(Neph2012)[1]
+    )
+  )
+ggsave(
+  filename = "figures/Neph2012_1_histogram.png",
+  width = 12,
+  height = 6,
+  units = "in",
+  dpi = 72
+)
 
 #
 
@@ -297,7 +411,7 @@ ggplot() +
     mapping = aes(x = Length),
     color = "grey30"
   ) +
-  scale_x_log10() +
+  scale_x_log10(labels = comma) +
   theme_cowplot(font_size = 20) +
   labs(
     x = "Target Genes",
@@ -341,7 +455,7 @@ ggplot() +
     mapping = aes(x = Length),
     color = "grey30"
   ) +
-  scale_x_log10() +
+  scale_x_log10(labels = comma) +
   theme_cowplot(font_size = 20) +
   labs(
     x = "Target Genes",
