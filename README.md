@@ -50,9 +50,8 @@ load("tftargets.rda")
 
 # View the variables stored in the file:
 ls()
-[1] "ENCODE"              "ITFP"                "Neph2012"           
-[4] "Marbach2016" "stringdb"            "TRED"               
-[7] "TRRUST"
+[1] "ENCODE"      "ITFP"        "Marbach2016"
+[4] "Neph2012"    "TRED"        "TRRUST"
 ```
 
 
