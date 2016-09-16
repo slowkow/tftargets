@@ -3,12 +3,8 @@
 \docType{data}
 \name{ITFP}
 \alias{ITFP}
-\title{Transcription factor targets from ITFP.}
-\format{A list of gene vectors keyed by transcription factor names.
-\describe{
-  \item{JUN}{character vector of genes targeted by JUN}
-  ...
-}}
+\title{Transcription factor targets from ITFP}
+\format{A list of gene vectors keyed by transcription factor names.}
 \source{
 \url{itfp.biosino.org/itfp/}
 }
@@ -21,7 +17,9 @@ Predicted human transcription factor targets scraped from ITFP.
 \examples{
 length(ITFP)
 ITFP[1]
+ITFP[["STAT3"]]
 \donttest{hist(sapply(ITFP, length))}
+
 }
 \references{
 Zheng, G., Tu, K., Yang, Q., Xiong, Y., Wei, C., Xie, L., Zhu,

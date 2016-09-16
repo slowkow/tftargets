@@ -3,12 +3,8 @@
 \docType{data}
 \name{TRRUST}
 \alias{TRRUST}
-\title{Transcription factor targets from TRRUST.}
-\format{A list of gene vectors keyed by transcription factor names.
-\describe{
-  \item{JUN}{integer vector of Entrez Gene IDs for genes targeted by JUN}
-  ...
-}}
+\title{Transcription factor targets from TRRUST}
+\format{A list of gene vectors keyed by transcription factor names.}
 \source{
 \url{http://www.grnpedia.org/trrust/}
 }
@@ -16,12 +12,14 @@
 TRRUST
 }
 \description{
-Transcription factor targets from TRRUST.
+Transcription factor targets from TRRUST
 }
 \examples{
 length(TRRUST)
 TRRUST[1]
+TRRUST[["STAT3"]]
 \donttest{hist(sapply(TRRUST, length))}
+
 }
 \references{
 Han, H., Shim, H., Shin, D., Shim, J. E., Ko, Y., Shin, J.,

@@ -3,13 +3,9 @@
 \docType{data}
 \name{Neph2012}
 \alias{Neph2012}
-\title{Transcription factor targets from Neph et al. 2012.}
+\title{Transcription factor targets from RegulatoryNetworks.org}
 \format{A list of lists keyed by cell type names. Each sublist is keyed by
-transcription factor names and returns a gene vector.
-\describe{
-  \item{JUN}{integer vector of Entrez Gene IDs for genes targeted by JUN}
-  ...
-}}
+transcription factor names and returns a gene vector.}
 \source{
 \url{http://www.regulatorynetworks.org/}
 }
@@ -22,8 +18,9 @@ recognition sequences. Targets only include transcription factors.
 }
 \examples{
 length(Neph2012)
-Neph2012[1]
-\donttest{hist(sapply(Neph2012, length))}
+Neph2012[["fHeart-DS12531"]][["STAT3"]]
+\donttest{hist(sapply(Neph2012[[1]], length))}
+
 }
 \references{
 Neph, S., Stergachis, A. B., Reynolds, A., Sandstrom, R.,

@@ -3,12 +3,8 @@
 \docType{data}
 \name{ENCODE}
 \alias{ENCODE}
-\title{Transcription factor targets estimated from ENCODE data.}
-\format{A list of gene vectors keyed by transcription factor names.
-\describe{
-  \item{JUN}{integer vector of Entrez Gene IDs for genes targeted by JUN}
-  ...
-}}
+\title{Transcription factor targets estimated from ENCODE data}
+\format{A list of gene vectors keyed by transcription factor names.}
 \source{
 \url{http://hgdownload.cse.ucsc.edu/goldenpath/hg19/encodeDCC/wgEncodeRegTfbsClustered/}
 }
@@ -26,7 +22,9 @@ There are many other samples that you might want to use instead.
 \examples{
 length(ENCODE)
 ENCODE[1]
+ENCODE[["STAT3"]]
 \donttest{hist(sapply(ENCODE, length))}
+
 }
 \references{
 ENCODE Project Consortium. An integrated encyclopedia of DNA

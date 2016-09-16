@@ -326,10 +326,10 @@ ggsave(
 regc_file <- "data-raw/regulatorycircuits/FANTOM5_individual_networks/394_individual_networks/synoviocyte.txt.bz2"
 regc <- read_tsv(regc_file, col_names = c("tf", "target", "weight"))
 
-regulatory_circuits <- split(regc$target, regc$tf)
-regulatory_circuits_weight <- split(regc$weight, regc$tf)
+Marbach2016 <- split(regc$target, regc$tf)
+Marbach2016_weight <- split(regc$weight, regc$tf)
 
-d <- data.frame(Length = sapply(regulatory_circuits, length))
+d <- data.frame(Length = sapply(Marbach2016, length))
 ggplot() +
   geom_histogram(
     data = d,
@@ -349,32 +349,12 @@ ggplot() +
     title = "Number of target genes per transcription factor"
   )
 ggsave(
-  filename = "figures/regulatory_circuits_histogram.png",
+  filename = "figures/Marbach2016_histogram.png",
   width = 12,
   height = 6,
   units = "in",
   dpi = 72
 )
-
-# hist(
-#   x = 
-#   breaks = 100,
-#   xlab = "Target Genes",
-#   ylab = "Transcription Factors",
-#   main = paste(collapse = "\n", c(
-#     "Number of target genes per transcription factor",
-#     "regulatorycircuits.org"
-#   ))
-# )
-# rug(sapply(regulatory_circuits, length))
-
-# hist(
-#   x = log10(regc$weight),
-#   breaks = 100,
-#   xlab = bquote("Log"[10]~"Target Gene Weight"),
-#   ylab = "Genes",
-#   main = "Distribution of all target gene weights"
-# )
 
 d <- data.frame(Weight = regc$weight)
 ggplot() +
@@ -392,29 +372,16 @@ ggplot() +
     title = "Distribution of all target gene weights"
   )
 ggsave(
-  filename = "figures/regulatory_circuits_weights_histogram.png",
+  filename = "figures/Marbach2016_weights_histogram.png",
   width = 12,
   height = 6,
   units = "in",
   dpi = 72
 )
 
-# hist(log10(unlist(sapply(
-#   X = regulatory_circuits_weight,
-#   FUN = function(x) x / sum(x)
-# ))), breaks = 100)
-
-# plot(
-#   x = log10(sapply(regulatory_circuits, length)),
-#   y = log10(sapply(regulatory_circuits_weight, mean)),
-#   xlab = bquote("Log"[10]~"Number of Target Genes"),
-#   ylab = bquote("Log"[10]~"Mean Target Gene Weight"),
-#   main = "Number of Target Genes vs. Mean Weight of Target Genes"
-# )
-
 d <- data.frame(
-  x = sapply(regulatory_circuits, length),
-  y = sapply(regulatory_circuits_weight, mean)
+  x = sapply(Marbach2016, length),
+  y = sapply(Marbach2016_weight, mean)
 )
 ggplot() +
   geom_point(
@@ -430,7 +397,7 @@ ggplot() +
     title = "Number of Target Genes vs. Mean Weight of Target Genes"
   )
 ggsave(
-  filename = "figures/regulatory_circuits_targets_vs_weight.png",
+  filename = "figures/Marbach2016_targets_vs_weight.png",
   width = 12,
   height = 6,
   units = "in",
@@ -447,7 +414,7 @@ save(
     "ENCODE",
     "Neph2012",
     "TRRUST",
-    "regulatory_circuits"
+    "Marbach2016"
   ),
   compress = "bzip2",
   file = "data/tftargets.rda"

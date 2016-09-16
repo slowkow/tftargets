@@ -3,12 +3,8 @@
 \docType{data}
 \name{TRED}
 \alias{TRED}
-\title{Transcription factor targets from TRED.}
-\format{A list of gene vectors keyed by transcription factor names.
-\describe{
-  \item{JUN}{integer vector of Entrez Gene IDs for genes targeted by JUN}
-  ...
-}}
+\title{Transcription factor targets from TRED}
+\format{A list of gene vectors keyed by transcription factor names.}
 \source{
 \url{https://cb.utdallas.edu/cgi-bin/TRED/}
 }
@@ -21,7 +17,9 @@ Predicted and known human transcription factor targets scraped from TRED.
 \examples{
 length(TRED)
 TRED[1]
+TRED[["STAT3"]]
 \donttest{hist(sapply(TRED, length))}
+
 }
 \references{
 Jiang, C., Xuan, Z., Zhao, F. & Zhang, M. Q. TRED:

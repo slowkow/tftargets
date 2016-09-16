@@ -51,7 +51,7 @@ load("tftargets.rda")
 # View the variables stored in the file:
 ls()
 [1] "ENCODE"              "ITFP"                "Neph2012"           
-[4] "regulatory_circuits" "stringdb"            "TRED"               
+[4] "Marbach2016" "stringdb"            "TRED"               
 [7] "TRRUST"
 ```
 
@@ -65,14 +65,14 @@ This package contains the following datasets:
 * [ENCODE][encode] (2012)
 * [Neph2012][neph2012] (2012)
 * [TRRUST][trrust] (2015)
-* [RegulatoryCircuits][regulatorycircuits] (2016)
+* [Marbach2016][marbach2016] (2016)
 
 [tred]: https://github.com/slowkow/tftargets#tred
 [itfp]: https://github.com/slowkow/tftargets#itfp
 [encode]: https://github.com/slowkow/tftargets#encode
 [neph2012]: https://github.com/slowkow/tftargets#neph2012
-[regulatorycircuits]: https://github.com/slowkow/tftargets#regulatorycircuits
 [trrust]: https://github.com/slowkow/tftargets#trrust
+[marbach2016]: https://github.com/slowkow/tftargets#marbach2016
 
 See [`data-raw/make_rdata.R`][make_rdata] for the script that converts the raw
 data into lists of gene sets.
@@ -267,7 +267,7 @@ ABL1  CCND2   Activation  15509806
 
 - - -
 
-### Regulatory Circuits
+### Marbach2016
 
 #### Citation
 
@@ -288,7 +288,7 @@ ABL1  CCND2   Activation  15509806
 > types or tissues that are highly specific to that disease.
 
 ```{r}
-head(regulatory_circuits[["STAT3"]], 100)
+head(Marbach2016[["STAT3"]], 100)
   [1] "SURF1"    "ZNF230"   "EIF5"     "ATG4C"    "LYSMD4"   "ZWILCH"   "TFB1M"    "SLC12A7"  "DNAL1"    "PPP1R8"   "SEPT9"    "SDCCAG8" 
  [13] "CMTR1"    "GSAP"     "PPIA"     "CLCN6"    "ZFP69"    "ZFP64"    "RNPC3"    "BRPF1"    "ZKSCAN5"  "ZNF410"   "ASF1B"    "PES1"    
  [25] "TMEM41B"  "F2RL1"    "DARS"     "ZNF24"    "RPL4"     "SYF2"     "AGTPBP1"  "NANOS1"   "ZNF140"   "SEC14L1"  "CHAC1"    "CDC42SE2"
@@ -322,9 +322,9 @@ HNF4A  LHFPL2   1.47391413E-2
 STAT3  SURF1    3.14614561E-3
 ```
 
-<img src="https://github.com/slowkow/tftargets/raw/master/figures/regulatory_circuits_histogram.png">
+<img src="https://github.com/slowkow/tftargets/raw/master/figures/Marbach2016_histogram.png">
 
-<img src="https://github.com/slowkow/tftargets/raw/master/figures/regulatory_circuits_weights_histogram.png">
+<img src="https://github.com/slowkow/tftargets/raw/master/figures/Marbach2016_weights_histogram.png">
 
-<img src="https://github.com/slowkow/tftargets/raw/master/figures/regulatory_circuits_targets_vs_weight.png">
+<img src="https://github.com/slowkow/tftargets/raw/master/figures/Marbach2016_targets_vs_weight.png">
 
