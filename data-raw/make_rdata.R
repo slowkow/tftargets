@@ -450,5 +450,5 @@ save(
     "regulatory_circuits"
   ),
   compress = "bzip2",
-  file = "data/tftargets.RData"
+  file = "data/tftargets.rda"
 )

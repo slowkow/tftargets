@@ -40,13 +40,13 @@ Alternatively, you can download just the RData file:
 # install.packages("RCurl")
 library(RCurl)
 download.file(
-  url = "https://raw.githubusercontent.com/slowkow/tftargets/master/data/tftargets.RData",
-  destfile = "tftargets.RData",
+  url = "https://raw.githubusercontent.com/slowkow/tftargets/master/data/tftargets.rda",
+  destfile = "tftargets.rda",
   method = "curl"
 )
 
 # Load the file:
-load("tftargets.RData")
+load("tftargets.rda")
 
 # View the variables stored in the file:
 ls()
