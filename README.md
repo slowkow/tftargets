@@ -17,9 +17,20 @@ For now, please provide a link to this github repository:
 <https://github.com/slowkow/tftargets>
 
 
-## Download
+## Usage
 
-Download and load the RData file:
+You may install this package with [devtools]:
+
+```{r}
+devtools::install_github("slowkow/tftargets")
+
+library(tftargets)
+
+length(TRED)
+# [1] 133
+```
+
+Alternatively, you can download just the RData file:
 
 ```{r}
 # Download the file:
@@ -37,10 +48,9 @@ load("tftargets.RData")
 
 # View the variables stored in the file:
 ls()
- [1] "ENCODE"                     "ENCODE_entrezids"           "ITFP"                      
- [4] "Neph2012"                   "regulatory_circuits"        "regulatory_circuits_weight"
- [7] "stringdb"                   "TRED"                       "TRED_entrezids"            
-[10] "TRRUST"                     "TRRUST_TYPE"  
+[1] "ENCODE"              "ITFP"                "Neph2012"           
+[4] "regulatory_circuits" "stringdb"            "TRED"               
+[7] "TRRUST"
 ```
 
 
@@ -61,6 +71,11 @@ This package contains the following datasets:
 [neph2012]: https://github.com/slowkow/tftargets#neph2012
 [regulatorycircuits]: https://github.com/slowkow/tftargets#regulatorycircuits
 [trrust]: https://github.com/slowkow/tftargets#trrust
+
+See [`data-raw/make_rdata.R`][make_rdata] for the script that converts the raw
+data into lists of gene sets.
+
+[make_rdata]: https://github.com/slowkow/tftargets/blob/master/data-raw/make_rdata.R
 
 - - -
 

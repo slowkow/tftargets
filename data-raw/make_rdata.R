@@ -443,8 +443,8 @@ save(
     "ENCODE",
     "Neph2012",
     "stringdb",
-    "TRRUST", "TRRUST_TYPE",
-    "regulatory_circuits", "regulatory_circuits_weight"
+    "TRRUST",
+    "regulatory_circuits"
   ),
   file = "data/tftargets.RData"
 )
