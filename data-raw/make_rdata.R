@@ -433,15 +433,14 @@ ggsave(
   dpi = 72
 )
 
-
 #
 
 # Save the workspace ----------------------------------------------------------
 save(
   list = c(
     "ITFP",
-    "TRED", "TRED_entrezids",
-    "ENCODE", "ENCODE_entrezids",
+    "TRED",
+    "ENCODE",
     "Neph2012",
     "stringdb",
     "TRRUST", "TRRUST_TYPE",
