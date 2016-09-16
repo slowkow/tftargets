@@ -34,6 +34,13 @@ download.file(
 
 # Load the file:
 load("tftargets.RData")
+
+# View the variables stored in the file:
+ls()
+ [1] "ENCODE"                     "ENCODE_entrezids"           "ITFP"                      
+ [4] "Neph2012"                   "regulatory_circuits"        "regulatory_circuits_weight"
+ [7] "stringdb"                   "TRED"                       "TRED_entrezids"            
+[10] "TRRUST"                     "TRRUST_TYPE"  
 ```
 
 
