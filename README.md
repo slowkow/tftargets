@@ -214,6 +214,24 @@ Neph2012[["AG10803-DS12374"]][["STAT3"]]
 TRRUST[["STAT3"]]
 ```
 
+#### Raw Data
+
+```bash
+zcat data-raw/TRRUST/trrust_rawdata.txt.gz | head | column -t
+AATF  BAK1    Unknown     22983126
+AATF  BAX     Repression  22909821
+AATF  BBC3    Unknown     22983126
+AATF  CDKN1A  Unknown     17157788
+AATF  MYC     Activation  20549547
+AATF  TP53    Unknown     17157788
+ABL1  BAX     Activation  11753601
+ABL1  BCL2    Repression  11753601
+ABL1  BCL6    Repression  15509806
+ABL1  CCND2   Activation  15509806
+```
+
+<img src="https://github.com/slowkow/tftargets/raw/master/figures/TRRUST_histogram.png">
+
 - - -
 
 ### Regulatory Circuits
@@ -261,4 +279,10 @@ FLI1   CENPU    6.72504942E-3
 HNF4A  LHFPL2   1.47391413E-2
 STAT3  SURF1    3.14614561E-3
 ```
+
+<img src="https://github.com/slowkow/tftargets/raw/master/figures/regulatory_circuits_histogram.png">
+
+<img src="https://github.com/slowkow/tftargets/raw/master/figures/regulatory_circuits_weights_histogram.png">
+
+<img src="https://github.com/slowkow/tftargets/raw/master/figures/regulatory_circuits_targets_vs_weight.png">
 
