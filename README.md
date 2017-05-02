@@ -64,7 +64,7 @@ This package contains the following datasets:
 | TRED        | list         | ENTREZ            | 133    | 7,066                 | [TRED][tred] (2007)               |
 | ITFP        | list         | HGNC Symbol/Alias | 1974   | 67,154                | [ITFP][itfp] (2008)               |
 | ENCODE      | list         | ENTREZ            | 157    | 20,428                | [ENCODE][encode] (2012)           |
-| Neph2012    | nested list* | HGNC Symbol/Alias | 536    | 16,484                | [Neph2012][neph2012] (2012)       |
+| Neph2012    | nested\nlist* | HGNC Symbol/Alias | 536    | 16,484                | [Neph2012][neph2012] (2012)       |
 | TRRUST      | list         | HGNC Symbol/Alias | 748    | 8,215                 | [TRRUST][trrust] (2015)           |
 | Marbach2016 | list         | HGNC Symbol/Alias | 643    | 1,305,782             | [Marbach2016][marbach2016] (2016) |
 
@@ -75,8 +75,8 @@ This package contains the following datasets:
 [trrust]: https://github.com/slowkow/tftargets#trrust
 [marbach2016]: https://github.com/slowkow/tftargets#marbach2016
 
-* `Neph2012` is organized as a nested list where the top-level keys refer to
-  tissue types (e.g. "fBrain-DS11872").
+\* Note: The `Neph2012` is organized as a nested list where the top-level keys
+refer to tissue types (e.g. "fBrain-DS11872").
 
 See [`data-raw/make_rdata.R`][make_rdata] for the script that converts the raw
 data into lists of gene sets.
